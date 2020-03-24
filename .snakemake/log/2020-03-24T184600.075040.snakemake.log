@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	plot_tree
+	1
+
+[Tue Mar 24 18:46:00 2020]
+rule plot_tree:
+    input: workflow/tree.dnd
+    jobid: 0
+
+[Tue Mar 24 18:46:02 2020]
+Error in rule plot_tree:
+    jobid: 0
+
+RuleException:
+CalledProcessError in line 14 of /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile:
+Command 'set -euo pipefail;  jupyter-nbconvert --execute  --to notebook --ExecutePreprocessor.timeout=-1 '/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/.snakemake/scripts/tmpt9nbzeyx.plot_tree.ipynb'' returned non-zero exit status 1.
+  File "/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile", line 14, in __rule_plot_tree
+  File "/home/mark/anaconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/.snakemake/log/2020-03-24T184600.075040.snakemake.log

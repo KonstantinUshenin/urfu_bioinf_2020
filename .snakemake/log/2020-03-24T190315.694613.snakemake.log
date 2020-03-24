@@ -1,0 +1,82 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	articles_indexs
+	1	cat_indexs
+	1	fusion
+	1	global_alignment
+	1	request
+	1	tree_builder
+	6
+
+[Tue Mar 24 19:03:15 2020]
+rule articles_indexs:
+    input: dataset/CaL/article/fphys-07-00481.pdf
+    output: dataset/CaL/articles_indexs/fphys-07-00481.txt
+    jobid: 5
+    wildcards: channel=CaL, article=fphys-07-00481
+
+[Tue Mar 24 19:03:17 2020]
+Finished job 5.
+1 of 6 steps (17%) done
+
+[Tue Mar 24 19:03:17 2020]
+rule cat_indexs:
+    input: dataset/CaL/articles_indexs/fphys-07-00481.txt
+    output: indexs.txt
+    jobid: 4
+
+Removing temporary output file dataset/CaL/articles_indexs/fphys-07-00481.txt.
+[Tue Mar 24 19:03:17 2020]
+Finished job 4.
+2 of 6 steps (33%) done
+
+[Tue Mar 24 19:03:17 2020]
+rule fusion:
+    input: indexs.txt, fixed.txt
+    output: workflow/clear_indexs.csv
+    jobid: 3
+
+Removing temporary output file indexs.txt.
+[Tue Mar 24 19:03:19 2020]
+Finished job 3.
+3 of 6 steps (50%) done
+
+[Tue Mar 24 19:03:19 2020]
+rule request:
+    input: workflow/clear_indexs.csv
+    output: workflow/all_sequences.fasta
+    jobid: 2
+
+Removing temporary output file workflow/clear_indexs.csv.
+[Tue Mar 24 19:03:21 2020]
+Finished job 2.
+4 of 6 steps (67%) done
+
+[Tue Mar 24 19:03:21 2020]
+rule global_alignment:
+    input: workflow/all_sequences.fasta
+    output: workflow/all_sequences.aln
+    jobid: 1
+
+Removing temporary output file workflow/all_sequences.fasta.
+[Tue Mar 24 19:03:23 2020]
+Finished job 1.
+5 of 6 steps (83%) done
+
+[Tue Mar 24 19:03:23 2020]
+rule tree_builder:
+    input: workflow/all_sequences.aln
+    output: workflow/tree.dnd, workflow/score.txt
+    jobid: 0
+
+Removing temporary output file workflow/all_sequences.aln.
+Removing temporary output file workflow/tree.dnd.
+Removing temporary output file workflow/score.txt.
+[Tue Mar 24 19:03:25 2020]
+Finished job 0.
+6 of 6 steps (100%) done
+Complete log: /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/.snakemake/log/2020-03-24T190315.694613.snakemake.log
