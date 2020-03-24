@@ -1,0 +1,3 @@
+NameError in line 21 of /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile:
+name 'channel' is not defined
+  File "/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile", line 21, in <module>

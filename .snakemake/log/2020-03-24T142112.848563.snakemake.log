@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	articles_indexs
+	1	cat_indexs
+	2
+
+[Tue Mar 24 14:21:12 2020]
+rule articles_indexs:
+    input: dataset/CaL/article/fphys-07-00481.pdf
+    output: dataset/CaL/articles_indexes/fphys-07-00481.txt
+    jobid: 1
+    wildcards: channel=CaL, article=fphys-07-00481
+
+[Tue Mar 24 14:21:14 2020]
+Finished job 1.
+1 of 2 steps (50%) done
+
+[Tue Mar 24 14:21:14 2020]
+rule cat_indexs:
+    input: dataset/CaL/articles_indexes/fphys-07-00481.txt
+    output: indexes.txt
+    jobid: 0
+
+[Tue Mar 24 14:21:14 2020]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/.snakemake/log/2020-03-24T142112.848563.snakemake.log
