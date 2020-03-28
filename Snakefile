@@ -55,7 +55,7 @@ rule fusion:
         file_in_1 = input[0]
         file_in_2 = input[1]
         file_out = output
-        shell('cat "{file_in_1}" "{file_in_2}" >> "{file_out}"')
+        shell('cat "{file_in_1}" "{file_in_2}" | head -4 >> "{file_out}"') # TODO TEMPORARY SOLUTION!
   
 rule request_sequence:
     input:
@@ -64,20 +64,19 @@ rule request_sequence:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
     shell:
         "python3 notebook_template/request_sequence.py {input} {output}"
-    #shell:
-    #    'cat "{input}" > "{output}"'
   
 rule global_alignment:
     input:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
     output:
-        "workflow/{channel}/global_alignment/all_sequence.aln"
-    shell:
-        'cat "{input}" > "{output}"'
+        "workflow/{channel}/request_sequence/all_sequence.aln",
+	"workflow/{channel}/request_sequence/all_sequence.dnd"
+    run:
+        shell('clustalw -infile="{input}"')
         
 rule tree_builder:
     input:
-        "workflow/{channel}/global_alignment/all_sequence.aln"
+        "workflow/{channel}/request_sequence/all_sequence.dnd"
     output:
         "workflow/{channel}/tree_builder/tree.dnd"
     shell:
@@ -89,4 +88,4 @@ rule plot_tree:
     output:
         "workflow/{channel}/plot_tree/tree.png"
     shell:
-        'cat "{input}" > "{output}"'
+        "python3 notebook_template/plot_tree.py {input} {output}"

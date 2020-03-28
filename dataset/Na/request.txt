@@ -1,4 +1,4 @@
-CaL_all_index
+all_indexes
 XM_535941.6
 XM_021076169.1
 NM_001313997.1
