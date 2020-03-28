@@ -63,7 +63,9 @@ rule request_sequence:
     output:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
     shell:
-        'cat "{input}" > "{output}"'
+        "python3 notebook_template/request_sequence.py {input} {output}"
+    #shell:
+    #    'cat "{input}" > "{output}"'
   
 rule global_alignment:
     input:
