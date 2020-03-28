@@ -1,0 +1,45 @@
+LOCUS       AF540389                 142 bp    mRNA    linear   MAM 25-JUL-2016
+DEFINITION  Sus scrofa sodium channel protein (SCN2A) mRNA, partial cds.
+ACCESSION   AF540389
+VERSION     AF540389.1
+KEYWORDS    .
+SOURCE      Sus scrofa (pig)
+  ORGANISM  Sus scrofa
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Suina; Suidae;
+            Sus.
+REFERENCE   1  (bases 1 to 142)
+  AUTHORS   Kratzsch,A.C., Korczak,B.M., Neuenschwander,S., Stranzinger,G. and
+            Vogeli,P.
+  TITLE     Regional localizations of a sodium channel cluster, CHRNA1, KCNJ3,
+            CACNB4 and SPG4 in pigs
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 142)
+  AUTHORS   Kratzsch,A.C., Korczak,B.M., Neuenschwander,S., Stranzinger,G. and
+            Vogeli,P.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-AUG-2002) Institute of Animal Science, Swiss Federal
+            Institute of Technology (ETH), Tannenstrasse 1, Zurich, CH 8092,
+            Switzerland
+FEATURES             Location/Qualifiers
+     source          1..142
+                     /organism="Sus scrofa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9823"
+                     /chromosome="15"
+                     /map="15q15-q22"
+     gene            <1..>142
+                     /gene="SCN2A"
+     CDS             <1..>142
+                     /gene="SCN2A"
+                     /note="alpha subunit"
+                     /codon_start=3
+                     /product="sodium channel protein"
+                     /protein_id="AAQ11213.1"
+                     /translation="GLLAPILNSXPPDCDPNKVHPGSSVKGDCGNPSVGIFFFVSYIII
+                     S"
+ORIGIN
+        1 atggactgct agcacctatt cttaatagtg nacctcctga ttgtgacccc aataaagttc
+       61 accctggcag ctcagttaag ggagactgcg ggaacccatc tgttgggatt ttcttctttg
+      121 tcagttacat catcatatca tt
+//

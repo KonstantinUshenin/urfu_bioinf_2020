@@ -1,0 +1,50 @@
+LOCUS       DQ242485                 492 bp    mRNA    linear   MAM 26-JUL-2016
+DEFINITION  Oryctolagus cuniculus voltage-gated sodium channel type I alpha
+            polypeptide (SCN1A) mRNA, partial cds.
+ACCESSION   DQ242485
+VERSION     DQ242485.1
+KEYWORDS    .
+SOURCE      Oryctolagus cuniculus (rabbit)
+  ORGANISM  Oryctolagus cuniculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Lagomorpha; Leporidae;
+            Oryctolagus.
+REFERENCE   1  (bases 1 to 492)
+  AUTHORS   Tellez,J.O., Dobrzynski,H., Greener,I.D., Graham,G.M., Laing,E.,
+            Selley,J., Honjo,H., Hubbard,S.J., Boyett,M.R. and Billeter,R.
+  TITLE     Ion channel transcripts in the rabbit sinoatrial node
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 492)
+  AUTHORS   Greener,I.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-OCT-2005) Institute of Membrane and Systems Biology,
+            University of Leeds, Worsely Building, Leeds, West Yorkshire LS2
+            9JT, UK
+FEATURES             Location/Qualifiers
+     source          1..492
+                     /organism="Oryctolagus cuniculus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9986"
+     gene            <1..>492
+                     /gene="SCN1A"
+     CDS             <1..>492
+                     /gene="SCN1A"
+                     /codon_start=1
+                     /product="voltage-gated sodium channel type I alpha
+                     polypeptide"
+                     /protein_id="ABB60040.1"
+                     /translation="IQWPPTNASLEEHSIEKNITVDNNGTIVNETVFEFDWKSYIQDTR
+                     YHYFLEGVLDALLCGNSSDAGQCPEGYMCVKAGRNPNYGYTSFDTFSWAFLSLFRLMTQ
+                     DFWENLYQLTLRAAGKTYMIFFVLVIFLGSFYLINLILAVVAMAYEEQNQATLEEAEQK
+                     E"
+ORIGIN
+        1 atacagtggc ctcccaccaa tgcttccctg gaggaacata gtatagagaa gaatattact
+       61 gtggataaca atggcacaat tgtcaatgaa actgtctttg agtttgactg gaaatcatac
+      121 attcaagata caagatatca ttatttcctg gagggtgttt tggatgcatt actatgtgga
+      181 aatagctctg acgcaggcca atgtccagaa ggctacatgt gtgtaaaagc tggtagaaac
+      241 cccaattatg gctacacaag ttttgatacc ttcagctggg cttttttatc cttgtttcga
+      301 ctgatgactc aggacttttg ggaaaatctt taccagctga cattacgtgc tgctggaaaa
+      361 acatacatga tattttttgt gctggtcatt ttcttgggct cattctacct gataaacctg
+      421 atcctggctg tggtggccat ggcctatgag gagcagaatc aggcaacact ggaagaggct
+      481 gagcagaaag aa
+//

@@ -1,0 +1,739 @@
+LOCUS       NM_001313997            8320 bp    mRNA    linear   ROD 08-MAR-2020
+DEFINITION  Mus musculus sodium channel, voltage-gated, type I, alpha (Scn1a),
+            transcript variant 1, mRNA.
+ACCESSION   NM_001313997
+VERSION     NM_001313997.1
+KEYWORDS    RefSeq.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (bases 1 to 8320)
+  AUTHORS   Ricobaraza A, Mora-Jimenez L, Puerta E, Sanchez-Carpintero R,
+            Mingorance A, Artieda J, Nicolas MJ, Besne G, Bunuales M,
+            Gonzalez-Aparicio M, Sola-Sevilla N, Valencia M and
+            Hernandez-Alcoceba R.
+  TITLE     Epilepsy and neuropsychiatric comorbidities in mice carrying a
+            recurrent Dravet syndrome SCN1A missense mutation
+  JOURNAL   Sci Rep 9 (1), 14172 (2019)
+   PUBMED   31578435
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 8320)
+  AUTHORS   Nomura T, Hawkins NA, Kearney JA, George AL Jr and Contractor A.
+  TITLE     Potentiating alpha2 subunit containing perisomatic GABAA receptors
+            protects against seizures in a mouse model of Dravet syndrome
+  JOURNAL   J. Physiol. (Lond.) 597 (16), 4293-4307 (2019)
+   PUBMED   31045243
+REFERENCE   3  (bases 1 to 8320)
+  AUTHORS   Goff KM and Goldberg EM.
+  TITLE     Vasoactive intestinal peptide-expressing interneurons are impaired
+            in a mouse model of Dravet syndrome
+  JOURNAL   Elife 8, e46846 (2019)
+   PUBMED   31282864
+  REMARK    GeneRIF: Results show that vasoactive intestinal peptide-expressing
+            interneurons (VIP-INs) express the voltage gated sodium (+)) channel
+            subunit Nav1.1.(Nav1.1) and are dysfunctional in Dravet Syndrome
+            (DS), which may contribute to DS pathogenesis. Publication Status:
+            Online-Only
+REFERENCE   4  (bases 1 to 8320)
+  AUTHORS   Styr B, Gonen N, Zarhin D, Ruggiero A, Atsmon R, Gazit N, Braun G,
+            Frere S, Vertkin I, Shapira I, Harel M, Heim LR, Katsenelson M,
+            Rechnitz O, Fadila S, Derdikman D, Rubinstein M, Geiger T, Ruppin E
+            and Slutsky I.
+  TITLE     Mitochondrial Regulation of the Hippocampal Firing Rate Set Point
+            and Seizure Susceptibility
+  JOURNAL   Neuron 102 (5), 1009-1024 (2019)
+   PUBMED   31047779
+REFERENCE   5  (bases 1 to 8320)
+  AUTHORS   Kuo FS, Cleary CM, LoTurco JJ, Chen X and Mulkey DK.
+  TITLE     Disordered breathing in a mouse model of Dravet syndrome
+  JOURNAL   Elife 8, e43387 (2019)
+   PUBMED   31025941
+  REMARK    GeneRIF: At the cellular level in the retrotrapezoid nucleus (RTN),
+            we found inhibitory neurons expressing the Scn1a A1783V variant are
+            less excitable, whereas glutamatergic chemosensitive RTN neurons,
+            which are a key source of the CO2/H(+)-dependent drive to breathe,
+            are hyper-excitable in slices from Scn1a(DeltaE26) mice. Publication
+            Status: Online-Only
+REFERENCE   6  (bases 1 to 8320)
+  AUTHORS   Beckers MC, Ernst E, Belcher S, Howe J, Levenson R and Gros P.
+  TITLE     A new sodium channel alpha-subunit gene (Scn9a) from Schwann cells
+            maps to the Scn1a, Scn2a, Scn3a cluster of mouse chromosome 2
+  JOURNAL   Genomics 36 (1), 202-205 (1996)
+   PUBMED   8812438
+REFERENCE   7  (bases 1 to 8320)
+  AUTHORS   Spur,N.K., Bashir,R., Bushby,K., Cox,A., Cox,S., Hilde Brandt,F.,
+            Hill,N., Kao,F.T., Krols,L., Marzella,R., Miller,N., Nothwang,H.G.,
+            Rocchi,M., Sarfarazi,M., Stratakis,C.A., Wallgren-Petterson,C. and
+            Naylor,S.
+  TITLE     Report and abstracts of the Fourth International Workshop on Human
+            Chromosome 2 Mapping 1996
+  JOURNAL   Cytogenet. Cell Genet. 73 (4), 255-273 (1996)
+   PUBMED   8751373
+REFERENCE   8  (bases 1 to 8320)
+  AUTHORS   Crabbe JC, Belknap JK, Mitchell SR and Crawshaw LI.
+  TITLE     Quantitative trait loci mapping of genes that influence the
+            sensitivity and tolerance to ethanol-induced hypothermia in BXD
+            recombinant inbred mice
+  JOURNAL   J. Pharmacol. Exp. Ther. 269 (1), 184-192 (1994)
+   PUBMED   8169823
+REFERENCE   9  (bases 1 to 8320)
+  AUTHORS   Malo MS, Blanchard BJ, Andresen JM, Srivastava K, Chen XN, Li X,
+            Jabs EW, Korenberg JR and Ingram VM.
+  TITLE     Localization of a putative human brain sodium channel gene (SCN1A)
+            to chromosome band 2q24
+  JOURNAL   Cytogenet. Cell Genet. 67 (3), 178-186 (1994)
+   PUBMED   8062593
+REFERENCE   10  (bases 1 to 8320)
+  AUTHORS   Malo D, Schurr E, Dorfman J, Canfield V, Levenson R and Gros P.
+  TITLE     Three brain sodium channel alpha-subunit genes are clustered on the
+            proximal segment of mouse chromosome 2
+  JOURNAL   Genomics 10 (3), 666-672 (1991)
+   PUBMED   1679748
+COMMENT     ##Evidence-Data-START##
+            RNAseq introns :: mixed/partial sample support SAMN00849374,
+            SAMN00849376 [ECO:0000350]
+            ##Evidence-Data-END##
+            ##RefSeq-Attributes-START##
+            inferred exon combination :: based on alignments, homology
+            ##RefSeq-Attributes-END##
+            VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AL928726.5 and AL844526.5.
+            On Sep 22, 2015 this sequence version replaced XM_011239389.1.
+            Transcript Variant: This variant (1) represents the longer
+            transcript and encodes the longer isoform (1).
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            COMPLETENESS: complete on the 3' end.
+FEATURES             Location/Qualifiers
+     source          1..8320
+                     /organism="Mus musculus"
+                     /mol_type="mRNA"
+                     /strain="C57BL/6"
+                     /db_xref="taxon:10090"
+                     /chromosome="2"
+                     /map="2 39.13 cM"
+     gene            1..8320
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /note="sodium channel, voltage-gated, type I, alpha"
+                     /db_xref="GeneID:20265"
+                     /db_xref="MGI:MGI:98246"
+     exon            1..138
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            139..451
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    167..169
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /note="upstream in-frame stop codon"
+     CDS             188..6217
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /note="isoform 1 is encoded by transcript variant 1; sodium
+                     channel protein type I subunit alpha; sodium channel
+                     protein brain I subunit alpha; voltage-gated sodium channel
+                     subunit alpha Nav1.1; sodium channel protein type 1 subunit
+                     alpha"
+                     /codon_start=1
+                     /product="sodium channel protein type 1 subunit alpha
+                     isoform 1"
+                     /protein_id="NP_001300926.1"
+                     /db_xref="CCDS:CCDS84530.1"
+                     /db_xref="GeneID:20265"
+                     /db_xref="MGI:MGI:98246"
+                     /translation="MEQTVLVPPGPDSFNFFTRESLAAIERRIAEEKAKNPKPDKKDDD
+                     ENGPKPNSDLEAGKNLPFIYGDIPPEMVSEPLEDLDPYYINKKTFIVLNKGKAIFRFSA
+                     TSALYILTPFNPLRKIAIKILVHSLFSMLIMCTILTNCVFMTMSNPPDWTKNVEYTFTG
+                     IYTFESLIKIIARGFCLEDFTFLRDPWNWLDFTVITFAYVTEFVDLGNVSALRTFRVLR
+                     ALKTISVIPGLKTIVGALIQSVKKLSDVMILTVFCLSVFALIGLQLFMGNLRNKCVQWP
+                     PTNASLEEHSIEKNITMDYNGTLVNETVFEFDWKSYIQDSRYHYFLEGVLDALLCGNSS
+                     DAGQCPEGYMCVKAGRNPNYGYTSFDTFSWAFLSLFRLMTQDFWENLYQLTLRAAGKTY
+                     MIFFVLVIFLGSFYLINLILAVVAMAYEEQNQATLEEAEQKEAEFQQMLEQLKKQQEAA
+                     QQAAATTASEHSREPSAAGRLSDSSSEASKLSSKSAKERRNRRKKRKQKEQSGGEEKDD
+                     DEFHKSESEDSIRRKGFRFSIEGNRLTYEKRYSSPHQSLLSIRGSLFSPRRNSRTSLFS
+                     FRGRAKDVGSENDFADDEHSTFEDNESRRDSLFVPRRHGERRNSNLSQTSRSSRMLAVF
+                     PANGKMHSTVDCNGVVSLVGGPSVPTSPVGQLLPEVIIDKPATDDNGTTTETEMRKRRS
+                     SSFHVSMDFLEDPSQRQRAMSIASILTNTVEELEESRQKCPPCWYKFSNIFLIWDCSPY
+                     WLKVKHIVNLVVMDPFVDLAITICIVLNTLFMAMEHYPMTEHFNHVLTVGNLVFTGIFT
+                     AEMFLKIIAMDPYYYFQEGWNIFDGFIVTLSLVELGLANVEGLSVLRSFRLLRVFKLAK
+                     SWPTLNMLIKIIGNSVGALGNLTLVLAIIVFIFAVVGMQLFGKSYKDCVCKIATDCKLP
+                     RWHMNDFFHSFLIVFRVLCGEWIETMWDCMEVAGQAMCLTVFMMVMVIGNLVVLNLFLA
+                     LLLSSFSADNLAATDDDNEMNNLQIAVDRMHKGIAYVKRKIYEFIQQSFVKKQKILDEI
+                     KPLDDLNNRKDNCISNHTTEIGKDLDCLKDVNGTTSGIGTGSSVEKYIIDESDYMSFIN
+                     NPSLTVTVPIAVGESDFENLNTEDFSSESDLEESKEKLNESSSSSEGSTVDIGAPAEEQ
+                     PVIEPEETLEPEACFTEGCVQRFKCCQISVEEGRGKQWWNLRRTCFRIVEHNWFETFIV
+                     FMILLSSGALAFEDIYIDQRKTIKTMLEYADKVFTYIFILEMLLKWVAYGYQTYFTNAW
+                     CWLDFLIVDVSLVSLTANALGYSELGAIKSLRTLRALRPLRALSRFEGMRVVVNALLGA
+                     IPSIMNVLLVCLIFWLIFSIMGVNLFAGKFYHCVNTTTGDIFEISEVNNHSDCLKLIER
+                     NETARWKNVKVNFDNVGFGYLSLLQVATFKGWMDIMYAAVDSRNVELQPKYEESLYMYL
+                     YFVIFIIFGSFFTLNLFIGVIIDNFNQQKKKFGGQDIFMTEEQKKYYNAMKKLGSKKPQ
+                     KPIPRPGNKFQGMVFDFVTRQVFDISIMILICLNMVTMMVETDDQSDYVTSILSRINLV
+                     FIVLFTGECVLKLISLRHYYFTIGWNIFDFVVVILSIVGMFLAELIEKYFVSPTLFRVI
+                     RLARIGRILRLIKGAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYAIFGMSNFAYVKR
+                     EVGIDDMFNFETFGNSMICLFQITTSAGWDGLLAPILNSKPPDCDPNKVNPGSSVKGDC
+                     GNPSVGIFFFVSYIIISFLVVVNMYIAVILENFSVATEESAEPLSEDDFEMFYEVWEKF
+                     DPDATQFMEFEKLSQFAAALEPPLNLPQPNKLQLIAMDLPMVSGDRIHCLDILFAFTKR
+                     VLGESGEMDALRIQMEERFMASNPSKVSYQPITTTLKRKQEEVSAVIIQRAYRRHLLKR
+                     TVKQASFTYNKNKLKGGANLLVKEDMLIDRINENSITEKTDLTMSTAACPPSYDRVTKP
+                     IVEKHEQEGKDEKAKGK"
+     misc_feature    515..1549
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     Region: I. {ECO:0000250|UniProtKB:P04774}"
+     misc_feature    572..628
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    650..712
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    755..808
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    827..877
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    935..994
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    1070..1072
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     glycosylation site"
+     misc_feature    1088..1090
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     glycosylation site"
+     misc_feature    1103..1105
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     glycosylation site"
+     misc_feature    1199..1201
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     glycosylation site"
+     misc_feature    1385..1447
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    1595..1597
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P04774};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     phosphorylation site"
+     misc_feature    1754..1756
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P04774};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     phosphorylation site"
+     misc_feature    1760..1762
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P04774};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     phosphorylation site"
+     misc_feature    1835..1837
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P04774};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     phosphorylation site"
+     misc_feature    1838..1840
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:21183079};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     phosphorylation site"
+     misc_feature    2006..2008
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P04774};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     phosphorylation site"
+     misc_feature    2375..2377
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:P04774};
+                     propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     phosphorylation site"
+     misc_feature    2435..3253
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     Region: II. {ECO:0000250|UniProtKB:P04774}"
+     misc_feature    2492..2548
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    2582..2641
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    2684..2743
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    2750..2803
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    2852..2908
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    3098..3160
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    3785..4729
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     Region: III. {ECO:0000250|UniProtKB:P04774}"
+     misc_feature    3845..3898
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    3938..3994
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    4037..4093
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    4118..4174
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    4226..4285
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    4559..4624
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    4733..4735
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by PKC.
+                     {ECO:0000250|UniProtKB:P04775}; propagated from
+                     UniProtKB/Swiss-Prot (A2APX8.1); phosphorylation site"
+     misc_feature    4754..5650
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     Region: IV. {ECO:0000250|UniProtKB:P04774}"
+     misc_feature    4814..4867
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    4868..4900
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     Region: S1-S2 loop of repeat IV.
+                     {ECO:0000269|PubMed:27281198}"
+     misc_feature    4901..4957
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    4994..5047
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    5042..5095
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     Region: S3b-S4 loop of repeat IV.
+                     {ECO:0000269|PubMed:27281198}"
+     misc_feature    5087..5137
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    5195..5248
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     misc_feature    5474..5542
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (A2APX8.1);
+                     transmembrane region"
+     exon            452..570
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            571..660
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            661..789
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            790..881
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            882..1151
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1152..1215
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1216..1357
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1358..1564
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1565..1849
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1850..2230
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2231..2363
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2364..2602
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2603..2776
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2777..3133
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3134..3616
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3617..3737
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3738..3892
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3893..4066
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4067..4189
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4190..4471
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4472..4525
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4526..4663
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4664..4768
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4769..5039
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5040..8320
+                     /gene="Scn1a"
+                     /gene_synonym="B230332M13; Nav1.1"
+                     /inference="alignment:Splign:2.1.0"
+ORIGIN
+        1 atgtaagtct gtctaggtca agtgtaggag actcactacc ggcctgtgga aactcatgga
+       61 actgtttctt cagattaaca cttcaggggc tatcgaggct gcaggaagct gagctttaac
+      121 tacatacatc tttcggggga atctcacatg aagagtaaag agtaattaaa atgtgcagga
+      181 tgacaagatg gagcaaacag tgcttgtacc accaggacct gacagcttca acttcttcac
+      241 cagagaatcc cttgcagcta ttgaaaggcg cattgcagaa gagaaggcta agaatcccaa
+      301 gccagacaaa aaagatgatg atgaaaatgg cccaaagcca aacagtgact tggaagctgg
+      361 gaagaacctt ccatttatct atggagacat tcctccagag atggtgtcgg agcctctgga
+      421 ggacctggac ccctactata tcaataagaa gacttttata gtattgaata aagggaaggc
+      481 catcttccgg ttcagtgcca cctccgccct gtacatttta acacccttca atcctcttag
+      541 gaaaatagct attaagattt tggtacactc attattcagc atgttaatca tgtgcactat
+      601 tttgacaaac tgtgtattta tgacaatgag taaccctccc gactggacaa agaatgtgga
+      661 gtacaccttc acaggaatat atacttttga atcactaata aaaattattg caaggggctt
+      721 ctgtttagaa gattttactt tccttcgcga cccatggaac tggctggact tcactgtcat
+      781 tacattcgca tatgtgacgg agtttgtgga cctgggcaat gtctcagcat tgagaacatt
+      841 cagagttctt cgagcattga aaactatttc agtcattcca ggcctgaaga ccatcgtggg
+      901 ggccctgatc cagtcggtga agaagctgtc tgacgtcatg atactcactg tgttctgtct
+      961 cagtgtgttc gcactcatcg ggttgcagct cttcatgggc aacctgagga ataaatgtgt
+     1021 acagtggcct cccaccaacg cttcccttga ggaacatagc atagagaaga atataactat
+     1081 ggattacaat ggcacacttg taaatgaaac cgtgttcgag tttgactgga aatcatacat
+     1141 tcaagactca agatatcatt atttcctgga gggtgtttta gatgcactgc tgtgtggaaa
+     1201 tagctctgat gcaggccaat gtccagaagg atatatgtgt gtaaaagctg gtagaaaccc
+     1261 taattatggt tacacaagct ttgatacctt cagttgggca tttttgtccc tgtttcgact
+     1321 gatgactcag gacttctggg aaaatctata ccaactgaca ttgcgtgctg ctggcaaaac
+     1381 ctacatgata ttttttgtgc tggtcatttt cttgggctca ttctacctga taaacttgat
+     1441 cctggctgtg gtggccatgg cctatgagga gcagaatcag gccacactgg aggaggctga
+     1501 acagaaagag gcagaatttc agcagatgtt ggagcaactt aagaagcagc aagaggctgc
+     1561 acagcaggca gcggctacaa cagcctcaga acattccagg gagcccagtg cagcaggcag
+     1621 gctctcagat agctcttcag aagcctctaa gttgagttcg aagagtgcta aagaaagacg
+     1681 aaatcggagg aaaaaaagga aacagaaaga gcagtctgga ggagaagaga aagatgatga
+     1741 tgaattccac aagtctgagt ctgaagacag catcaggagg aaggggtttc gcttctccat
+     1801 agaagggaat agactgacat atgaaaagag gtactcttcc ccgcatcagt ctctgttaag
+     1861 cattcgtggt tccctgttct ccccaagacg caatagcaga acaagtcttt tcagctttag
+     1921 agggcgagcc aaggatgtgg ggtctgagaa tgactttgct gatgatgaac acagcacctt
+     1981 tgaggataat gagagccgta gagactcact gttcgttccc cgaagacacg gagagcgacg
+     2041 caacagtaac ctgagccaga ccagcaggtc ctcccgaatg ctggcggtgt ttccagccaa
+     2101 tgggaagatg cacagcacgg tggattgcaa tggtgtggtt tccttggttg gtggaccctc
+     2161 agttcccaca tcgccagttg gacagcttct gccagaggtg ataatagata agccagctac
+     2221 tgatgacaat ggaacaacca ctgaaactga gatgagaaag aggaggtcga gctctttcca
+     2281 tgtttccatg gactttctag aagatccttc ccagaggcaa agggcaatga gcatagccag
+     2341 catcttaaca aatacagtag aagaactaga agaatccagg cagaaatgtc caccctgttg
+     2401 gtataaattt tccaacatat tcttaatttg ggactgttct ccatattggc tgaaagttaa
+     2461 acatattgtc aacctggtgg tgatggaccc atttgttgat ctggccatta ccatctgcat
+     2521 tgtgttaaat acgctcttca tggctatgga gcactacccc atgactgaac atttcaacca
+     2581 tgttcttaca gtgggaaact tggtcttcac tgggattttc acagcagaaa tgttcctgaa
+     2641 aatcatcgca atggatcctt actattactt ccaagaaggc tggaatatct ttgatggttt
+     2701 cattgtgaca ctcagcctgg tagaacttgg ccttgccaat gtggaaggat tgtcagttct
+     2761 ccgttcattt cgactgctcc gagtgttcaa gttggcaaag tcttggccca cactgaatat
+     2821 gctcattaag atcattggta actcggtggg agcactgggc aacctgactc tggtgttggc
+     2881 catcattgtc tttatttttg ccgtggttgg catgcagctg tttggaaaaa gttacaaaga
+     2941 ttgtgtctgc aaaattgcca ctgactgcaa actcccacgt tggcacatga acgacttctt
+     3001 ccactcgttc ctgatcgtgt tccgcgtgct gtgtggggag tggatagaga ccatgtggga
+     3061 ctgcatggag gtggcaggac aagctatgtg ccttactgtc ttcatgatgg tcatggtgat
+     3121 tgggaacctt gtggtcttga acctctttct ggccttgctt ctgagctcat ttagtgcaga
+     3181 caaccttgca gccactgatg atgacaatga gatgaacaac ctgcagattg ctgtggacag
+     3241 gatgcacaaa ggaatagctt atgtaaaaag aaaaatatat gaattcattc aacaatcctt
+     3301 tgttaagaaa cagaagattc tagatgaaat taagccactt gatgatctaa acaacagaaa
+     3361 agacaattgt atctctaacc acacaacaga aattgggaaa gatctggact gtctgaaaga
+     3421 tgtgaatgga accacaagtg gcatagggac gggcagcagt gtggagaagt acatcattga
+     3481 tgagagtgat tatatgtcat tcataaacaa ccccagcctc actgtgactg tgcccattgc
+     3541 tgtgggagag tctgactttg agaacttaaa cacagaagac tttagcagtg aatcagatct
+     3601 agaagaaagc aaagagaaac tcaacgaaag cagtagctcc tcagagggaa gcacagtaga
+     3661 cattggggcg cctgcagagg aacagcctgt cattgaacca gaagaaaccc ttgagcccga
+     3721 agcttgcttc actgaaggct gtgtccagag attcaagtgc tgtcaaatca gcgtggaaga
+     3781 aggaagaggg aaacagtggt ggaacctacg gaggacgtgc ttccgaatag ttgaacacaa
+     3841 ctggtttgag accttcattg tgttcatgat tctcctgagt agtggtgccc tggcctttga
+     3901 ggatatatat attgatcagc gaaagacgat caaaaccatg ctggagtatg ctgacaaagt
+     3961 cttcacttac attttcatcc tggagatgct cctcaaatgg gtggcctatg gctatcaaac
+     4021 atacttcacc aatgcctggt gttggctaga cttcttaatt gttgatgttt cattggtcag
+     4081 tttaacagca aatgccttgg gttactctga actcggggcc atcaaatccc taaggacact
+     4141 aagagctctg agacccctaa gagccttatc acgatttgaa gggatgaggg tggttgtgaa
+     4201 tgccctgtta ggagcaattc catccatcat gaatgtgctt ctggtttgcc ttatattctg
+     4261 gctaattttc agcatcatgg gcgtaaattt gtttgctggc aaattctacc actgtgttaa
+     4321 caccacaact ggtgacatat ttgagatcag cgaagtcaat aatcattctg attgcctaaa
+     4381 actaatagaa agaaatgaga ccgcccggtg gaaaaatgtg aaagtaaact ttgataatgt
+     4441 aggatttggg tatctttctt tgcttcaagt tgccacattt aagggctgga tggatatcat
+     4501 gtatgctgca gttgattcca gaaatgttga actacagcct aagtatgagg aaagcctgta
+     4561 catgtatttg tacttcgtca tcttcatcat cttcgggtcc ttctttaccc tgaacctgtt
+     4621 tattggtgtc attatcgaca atttcaacca gcaaaagaag aagtttggag gtcaagacat
+     4681 ctttatgaca gaagaacaga agaaatacta taatgcaatg aagaaattag gatcaaaaaa
+     4741 gccacaaaag cctatccctc gacctggaaa caaatttcaa ggaatggttt ttgactttgt
+     4801 aaccagacaa gtgtttgata tcagcatcat gatcctcatc tgtctgaaca tggtgaccat
+     4861 gatggtggaa acggatgacc agagcgatta tgtgacaagc attttgtcac gcatcaacct
+     4921 ggtgttcatc gtcctgttca ccggcgagtg tgtgctcaag ctcatctcgc tccgccatta
+     4981 ttatttcacc attggatgga acattttcga ttttgtggtg gtcatcctct ccattgtagg
+     5041 gatgtttctt gcggagctaa tagaaaagta ttttgtgtct cctaccctgt tccgagtcat
+     5101 ccgcctggcc aggattggac gaatcctacg cctgatcaaa ggtgccaagg ggatccgcac
+     5161 gctgctcttt gctctgatga tgtcccttcc tgcgctgttt aacatcggcc tcctgctttt
+     5221 tctcgtcatg ttcatctacg ccatctttgg gatgtccaac tttgcctatg ttaagaggga
+     5281 agttgggatt gatgacatgt tcaactttga gaccttcggc aacagcatga tctgcctgtt
+     5341 ccaaatcacc acctctgcgg gctgggatgg actgctggcc cccatcctca acagcaaacc
+     5401 ccctgactgt gaccctaata aagttaaccc tggaagctcg gtgaagggag actgtgggaa
+     5461 cccatctgtg gggattttct tttttgtcag ctacatcatc atatccttcc tggttgtggt
+     5521 gaacatgtac attgctgtca tcctggagaa cttcagcgtt gccacagaag aaagtgcaga
+     5581 gcctctgagt gaggacgact ttgagatgtt ctacgaggtc tgggagaagt tcgaccctga
+     5641 cgccacccag ttcatggaat ttgaaaaatt atctcagttt gcagctgctc tagaaccccc
+     5701 tctcaatttg ccacaaccaa acaaacttca gctcattgcc atggacctgc ccatggtgag
+     5761 tggagaccgc atccactgcc tggacatctt atttgctttt acaaagcggg tgttgggtga
+     5821 gagtggagag atggatgctc ttcgaatcca gatggaagag cggttcatgg cttccaaccc
+     5881 ctccaaggtc tcttatcagc ccatcactac tacattaaaa cgcaaacaag aggaggtgtc
+     5941 agctgttatc attcagcgag cttataggcg ccaccttttg aagcgaacag taaaacaagc
+     6001 ttcattcaca tacaataaga acaaactcaa aggtggggct aatcttcttg taaaagaaga
+     6061 catgctcatt gacagaataa acgaaaactc tattacggag aaaactgacc tgacaatgtc
+     6121 cacagcagct tgtccgccct cctacgatcg ggtgacaaag ccaatcgtgg agaaacacga
+     6181 gcaggaaggg aaggatgaaa aagccaaagg gaaatgaaca aaaacaacaa aaaaaaataa
+     6241 taaattgggt gacaaattgt ttacagcctg tgaagtcaaa aggactcctt taagaagtca
+     6301 atgccaaact gactgttttt acacaaattc actttaaggt cagtgcctca ataagacagt
+     6361 gacccccttg tcggcaaact ctgtgactgt gtaaagggga gataaccttg acaggagggt
+     6421 actgttctaa ctaccagctg acactgctga agacaagaga caaatggcta tgcagactgt
+     6481 agggatcagt ctaaaggggt gcagagctat aatttggggg ttaatgtgaa acactttagt
+     6541 gtagtaactc tatccaccgt ttgcatttca actgccacat ttgtcaggtt ttttacaaac
+     6601 tctgttagtg gattcatctt ttttttaatc catgtgttgt ttgttacatg tgactatttt
+     6661 tgtaagcagg gtttctgttg ggaaatagac taaaggaact cttttcccgg tgtgtcacct
+     6721 gggagtgttg acatccttat ggccctcccg tctgcacaac ggtgtggttt cgcatgaggg
+     6781 catgttgcac cttaggatca tgcatgagaa aaagtcgaaa ggaaagcaaa gacagttctt
+     6841 caacagttct atgtcatctg tgtttctgcg gggggagggg gcggtacgga ggtgatcgct
+     6901 agatcgtggg ctttgctgag ctgggtttgt caaaatctag tccttagtcc aaggagattg
+     6961 ttcagacagg tcatcaagtc ttaggaggtg caaacttcat tcaaatgtct ggagtcacgc
+     7021 tacatttctg ttcactgtct ctgaaaggtc tctaaattat gactctgact ccctaccccc
+     7081 aaccctagca gagcgaattg accaaaagaa ccctttataa atccccgctt cctcctgcac
+     7141 tttgtttagc catcttcagc tctcagcaag gttgacactg tatgtgttaa tgaaatgcta
+     7201 tttattatgt aaatagtcat tttactctgt ggtgcacgtt tgagcaaaca aataatgacg
+     7261 taagcacagt atttattgca tcaaatatgt accacgagaa atgtagagtg caagctgtcc
+     7321 accggaaata tactgtactc tgtaccattg tagatagtgt ggatgctgcc aatgcatgtc
+     7381 gatattacca cgttgcggta tctagtttct ctcagcactc agaatctcac tcacgagaaa
+     7441 ccataggtca gtggctaagt caaggaaact gttcagcaga cttcatttct ttaagtcatt
+     7501 aagcaatagt ttgcagcact ttaacaatgt ttgggttgtt tttaaaattt aagtggataa
+     7561 cgttcaatgt atagccagac tgtacatacg tgttcaaaag acaacactac tgcttaacct
+     7621 gttaaaaaca tgtttagagt tttataagca aatataaata ctgtacaaag tcactttctt
+     7681 ttacttttca gcattatgta catatgaaga ggaaattatc ttcaggttga tatcacaatc
+     7741 acttttctta ctttctgtcc acagcagttt ttcatggaag atatttgcta actaagaaat
+     7801 gaaactatga ctgggtagtg gtagatctct gcttttttat tacaattgtt aattttggat
+     7861 tatttcataa ttttaagggg caaaatacac tcacaacttc acatccaaat tatgatttgc
+     7921 aattggaaaa ggtataacat ttgatttata tttattgtag tgtttgtgct aacagatgac
+     7981 cagagtgctt ttttttctca tttttttctt tatttcccca atttctgttt atttttcttt
+     8041 gctttgaaat catgcttctt tagattgttc taaatataaa tgtgggcttc agaatttctt
+     8101 ttcctcaaaa tcagagagga ttacacttat atagtcaatt acatcaagat atttgtgttt
+     8161 cttacagaag cagaccgtag gcacctcttt ttcttaaaaa aaaaatattt aggcaaaccg
+     8221 tattcatgaa ctgcatgttg gaaaatgcta ctattagccc aaaatgatgc taatcacaat
+     8281 taaaaaatgt gcaaatctaa taaaattaat tttttatttt
+//

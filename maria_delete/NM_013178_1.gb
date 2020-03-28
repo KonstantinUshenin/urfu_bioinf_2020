@@ -1,0 +1,703 @@
+LOCUS       NM_013178               6957 bp    mRNA    linear   ROD 24-SEP-2019
+DEFINITION  Rattus norvegicus sodium voltage-gated channel alpha subunit 4
+            (Scn4a), mRNA.
+ACCESSION   NM_013178
+VERSION     NM_013178.1
+KEYWORDS    RefSeq.
+SOURCE      Rattus norvegicus (Norway rat)
+  ORGANISM  Rattus norvegicus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Rattus.
+REFERENCE   1  (bases 1 to 6957)
+  AUTHORS   Pan X, Li Z, Zhou Q, Shen H, Wu K, Huang X, Chen J, Zhang J, Zhu X,
+            Lei J, Xiong W, Gong H, Xiao B and Yan N.
+  TITLE     Structure of the human voltage-gated sodium channel Nav1.4 in
+            complex with beta1
+  JOURNAL   Science 362 (6412) (2018)
+   PUBMED   30190309
+REFERENCE   2  (bases 1 to 6957)
+  AUTHORS   Sanchez-Solano A, Islas AA, Scior T, Paiz-Candia B, Millan-PerezPena
+            L and Salinas-Stefanon EM.
+  TITLE     Characterization of specific allosteric effects of the Na(+) channel
+            beta1 subunit on the Nav1.4 isoform
+  JOURNAL   Eur. Biophys. J. 46 (5), 485-494 (2017)
+   PUBMED   28012039
+  REMARK    GeneRIF: the role of the intracellular IFM motif of rNav1.4
+            (skeletal muscle isoform of the rat Na(+) channel) on the
+            alpha-beta1 functional interaction
+REFERENCE   3  (bases 1 to 6957)
+  AUTHORS   Kubota T, Durek T, Dang B, Finol-Urdaneta RK, Craik DJ, Kent SB,
+            French RJ, Bezanilla F and Correa AM.
+  TITLE     Mapping of voltage sensor positions in resting and inactivated
+            mammalian sodium channels by LRET
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 114 (10), E1857-E1865 (2017)
+   PUBMED   28202723
+  REMARK    GeneRIF: Intramolecular distances computed from the LRET signals
+            define a geometrical map of Nav1.4 with the bound toxins, and reveal
+            voltage-dependent structural changes related to channel gating
+REFERENCE   4  (bases 1 to 6957)
+  AUTHORS   Sheets MF, Fozzard HA and Hanck DA.
+  TITLE     Important Role of Asparagines in Coupling the Pore and Votage-Sensor
+            Domain in Voltage-Gated Sodium Channels
+  JOURNAL   Biophys. J. 109 (11), 2277-2286 (2015)
+   PUBMED   26636939
+  REMARK    GeneRIF: Role of Asparagines in Coupling the Pore and Votage-Sensor
+            Domain in Voltage-Gated Sodium Channels
+REFERENCE   5  (bases 1 to 6957)
+  AUTHORS   Mahdavi S and Kuyucak S.
+  TITLE     Molecular dynamics study of binding of micro-conotoxin GIIIA to the
+            voltage-gated sodium channel Na(v)1.4
+  JOURNAL   PLoS ONE 9 (8), e105300 (2014)
+   PUBMED   25133704
+  REMARK    GeneRIF: The study constructs a homology model for the pore domain
+            of the NaV1.4 channel and uses the functional data for the binding
+            of micro-conotoxin GIIIA to NaV1.4 to validate the model.
+            Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 6957)
+  AUTHORS   Tsujino A, Maertens C, Ohno K, Shen XM, Fukuda T, Harper CM, Cannon
+            SC and Engel AG.
+  TITLE     Myasthenic syndrome caused by mutation of the SCN4A sodium channel
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 100 (12), 7377-7382 (2003)
+   PUBMED   12766226
+REFERENCE   7  (bases 1 to 6957)
+  AUTHORS   Carbonneau E, Vijayaragavan K and Chahine M.
+  TITLE     A tryptophan residue (W736) in the amino-terminus of the P-segment
+            of domain II is involved in pore formation in Na(v)1.4 voltage-gated
+            sodium channels
+  JOURNAL   Pflugers Arch. 445 (1), 18-24 (2002)
+   PUBMED   12397382
+  REMARK    GeneRIF: Role of a conserved neighbouring tryptophan residue at
+            position 736 (W736) of Na(V)1.4 in the pore formation was examined.
+            W736 contributes to the formation of the pore, close to the mouth of
+            the channel, but is not part of the selectivity filter.
+REFERENCE   8  (bases 1 to 6957)
+  AUTHORS   Zimmer T, Bollensdorff C, Haufe V, Birch-Hirschfeld E and Benndorf
+            K.
+  TITLE     Mouse heart Na+ channels: primary structure and function of two
+            isoforms and alternatively spliced variants
+  JOURNAL   Am. J. Physiol. Heart Circ. Physiol. 282 (3), H1007-H1017 (2002)
+   PUBMED   11834499
+REFERENCE   9  (bases 1 to 6957)
+  AUTHORS   Diss JK, Stewart D, Fraser SP, Black JA, Dib-Hajj S, Waxman SG,
+            Archer SN and Djamgoz MB.
+  TITLE     Expression of skeletal muscle-type voltage-gated Na+ channel in rat
+            and human prostate cancer cell lines
+  JOURNAL   FEBS Lett. 427 (1), 5-10 (1998)
+   PUBMED   9613589
+REFERENCE   10  (bases 1 to 6957)
+  AUTHORS   Trimmer JS, Cooperman SS, Tomiko SA, Zhou JY, Crean SM, Boyle MB,
+            Kallen RG, Sheng ZH, Barchi RL, Sigworth FJ et al.
+  TITLE     Primary structure and functional expression of a mammalian skeletal
+            muscle sodium channel
+  JOURNAL   Neuron 3 (1), 33-49 (1989)
+   PUBMED   2559760
+COMMENT     ##Evidence-Data-START##
+            Transcript exon combination :: M26643.1 [ECO:0000332]
+            RNAseq introns :: single sample supports all introns SAMEA2689600,
+            SAMEA2689602 [ECO:0000348]
+            ##Evidence-Data-END##
+            PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from M26643.1.
+            Summary: voltage-gated Na+ channel subunit [RGD, Feb 2006].
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+FEATURES             Location/Qualifiers
+     source          1..6957
+                     /organism="Rattus norvegicus"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:10116"
+                     /chromosome="10"
+                     /map="10q32.1"
+     gene            1..6957
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /note="sodium voltage-gated channel alpha subunit 4"
+                     /db_xref="GeneID:25722"
+                     /db_xref="RGD:3636"
+     exon            1..50
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            51..722
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     misc_feature    432..434
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /note="upstream in-frame stop codon"
+     CDS             450..5972
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /note="sodium channel, voltage-gated, type 4, alpha
+                     polypeptide; mu-1; skM1; sodium channel, voltage-gated,
+                     type IV, alpha subunit; sodium channel protein type IV
+                     subunit alpha; voltage-gated sodium channel subunit alpha
+                     Nav1.4; sodium channel protein skeletal muscle subunit
+                     alpha; sodium channel, voltage-gated, type IV, alpha
+                     polypeptide; sodium channel, voltage-gated, type 4, alpha
+                     subunit; Sodium channel voltage-gated type IV alpha
+                     polypeptide"
+                     /codon_start=1
+                     /product="sodium channel protein type 4 subunit alpha"
+                     /protein_id="NP_037310.1"
+                     /db_xref="GeneID:25722"
+                     /db_xref="RGD:3636"
+                     /translation="MASSSLPNLVPPGPHCLRPFTPESLAAIEQRAVEEEARLQRNKQM
+                     EIEEPERKPRSDLEAGKNLPLIYGDPPPEVIGIPLEDLDPYYSDKKTFIVLNKGKAIFR
+                     FSATPALYLLSPFSIVRRVAIKVLIHALFSMFIMITILTNCVFMTMSNPPSWSKHVEYT
+                     FTGIYTFESLIKMLARGFCIDDFTFLRDPWNWLDFSVITMAYVTEFVDLGNISALRTFR
+                     VLRALKTITVIPGLKTIVGALIQSVKKLSDVMILTVFCLSVFALVGLQLFMGNLRQKCV
+                     RWPPPMNDTNTTWYGNDTWYSNDTWYGNDTWYINDTWNSQESWAGNSTFDWEAYINDEG
+                     NFYFLEGSNDALLCGNSSDAGHCPEGYECIKAGRNPNYGYTSYDTFSWAFLALFRLMTQ
+                     DYWENLFQLTLRAAGKTYMIFFVVIIFLGSFYLINLILAVVAMAYAEQNEATLAEDQEK
+                     EEEFQQMLEKYKKHQEELEKAKAAQALESGEEADGDPTHNKDCNGSLDASGEKGPPRPS
+                     CSADSAISDAMEELEEAHQKCPPWWYKCAHKVLIWNCCAPWVKFKHIIYLIVMDPFVDL
+                     GITICIVLNTLFMAMEHYPMTEHFDNVLSVGNLVFTGIFTAEMVLKLIAMDPYEYFQQG
+                     WNIFDSFIVTLSLVELGLANVQGLSVLRSFRLLRVFKLAKSWPTLNMLIKIIGNSVGAL
+                     GNLTLVLAIIVFIFAVVGMQLFGKSYKECVCKIASDCNLPRWHMNDFFHSFLIVFRILC
+                     GEWIETMWDCMEVAGQAMCLTVFLMVMVIGNLVVLNLFLALLLSSFSADSLAASDEDGE
+                     MNNLQIAIGRIKWGIGFAKTFLLGLLRGKILSPKEIILSLGEPGGAGENAEESTPEDEK
+                     KEPPPEDKELKDNHILNHVGLTDGPRSSIELDHLNFINNPYLTIQVPIASEESDLEMPT
+                     EEETDAFSEPEDIKKPLQPLYDGNSSVCSTADYKPPEEDPEEQAEENPEGEQPEECFTE
+                     ACVKRCPCLYVDISQGRGKMWWTLRRACFKIVEHNWFETFIVFMILLSSGALAFEDIYI
+                     EQRRVIRTILEYADKVFTYIFILEMLLKWVAYGFKVYFTNAWCWLDFLIVDVSIISLVA
+                     NWLGYSELGPIKSLRTLRALRPLRALSRFEGMRVVVNALLGAIPSIMNVLLVCLIFWLI
+                     FSIMGVNLFAGKFYYCVNTTTSERFDISVVNNKSESESLMYTGQVRWMNVKVNYDNVGL
+                     GYLSLLQVATFKGWMDIMYAAVDSREKEEQPHYEVNLYMYLYFVIFIIFGSFFTLNLFI
+                     GVIIDNFNQQKKKFGGKDIFMTEEQKKYYNAMKKLGSKKPQKPIPRPQNKIQGMVYDFV
+                     TKQVFDISIMILICLNMVTMMVETDDQSQLKVDILYNINMVFIIIFTGECVLKMFALRH
+                     YYFTIGWNIFDFVVVILSIVGLALSDLIQKYFVSPTLFRVIRLARIGRVLRLIRGAKGI
+                     RTLLFALMMSLPALFNIGLLLFLVMFIYSIFGMSNFAYVKKESGIDDMFNFETFGNSII
+                     CLFEITTSAGWDGLLNPILNSGPPDCDPTLENPGTNVRGDCGNPSIGICFFCSYIIISF
+                     LIVVNMYIAIILENFNVATEESSEPLSEDDFEMFYETWEKFDPDATQFIDYSRLSDFVD
+                     TLQEPLKIAKPNKIKLITLDLPMVPGDKIHCLDILFALTKEVLGDSGEMDALKQTMEEK
+                     FMAANPSKVSYEPITTTLKRKQEEVCAIKIQRAYRRHLLQRSVKQASYMYRHSQDGNDD
+                     GAPEKEGLLANTMNKMYGHEKEGDGVQSQGEEEKASTEDAGPTVEPEPTSSSDTALTPS
+                     PPPLPPSSSPPQGQTVRPGVKESLV"
+     misc_feature    615..617
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by PKA. {ECO:0000255}; propagated
+                     from UniProtKB/Swiss-Prot (P15390.1); phosphorylation site"
+     misc_feature    786..1793
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     Region: I. {ECO:0000305}"
+     misc_feature    843..899
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    921..983
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    1026..1079
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    1098..1148
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    1200..1202
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by PKA. {ECO:0000255}; propagated
+                     from UniProtKB/Swiss-Prot (P15390.1); phosphorylation site"
+     misc_feature    1206..1265
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    1311..1313
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    1320..1322
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    1338..1340
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    1356..1358
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    1374..1376
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    1392..1394
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    1428..1430
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    1515..1517
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    1650..1652
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Important for inhibition by tetrodotoxin.
+                     {ECO:0000269|PubMed:16303569}; propagated from
+                     UniProtKB/Swiss-Prot (P15390.1); other site"
+     misc_feature    1701..1763
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    1908..1910
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:22673903};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     phosphorylation site"
+     misc_feature    2109..2927
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     Region: II. {ECO:0000305}"
+     misc_feature    2166..2222
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    2256..2315
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    2358..2417
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    2424..2477
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    2526..2582
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    2766..2822
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    3465..4406
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     Region: III. {ECO:0000305}"
+     misc_feature    3525..3578
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    3618..3674
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    3717..3773
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    3798..3854
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    3906..3965
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    4041..4043
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-linked (GlcNAc...) asparagine. {ECO:0000255};
+                     propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     glycosylation site"
+     misc_feature    4236..4301
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    4356..4364
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     Region: Important for rapid channel inactivation.
+                     {ECO:0000269|PubMed:28012039}"
+     misc_feature    4410..4412
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine, by PKA. {ECO:0000255}; Phosphoserine,
+                     by PKC. {ECO:0000250}; propagated from UniProtKB/Swiss-Prot
+                     (P15390.1); phosphorylation site"
+     misc_feature    4431..5327
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     Region: IV. {ECO:0000305}"
+     misc_feature    4491..4544
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    4578..4634
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    4671..4724
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    4764..4814
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    4872..4925
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     misc_feature    5151..5219
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="propagated from UniProtKB/Swiss-Prot (P15390.1);
+                     transmembrane region"
+     exon            723..841
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            842..931
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            932..1060
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1061..1152
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1153..1467
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1468..1531
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1532..1673
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1674..1883
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            1884..2037
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2038..2276
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2277..2450
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2451..2807
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            2808..3281
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            3282..3417
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            3418..3572
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            3573..3746
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            3747..3869
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            3870..4148
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            4149..4202
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            4203..4340
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            4341..4445
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            4446..4716
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+     exon            4717..6957
+                     /gene="Scn4a"
+                     /gene_synonym="microI; Nav1.4; NCHVS"
+                     /inference="alignment:Splign:2.0.8"
+ORIGIN
+        1 acggcacccg gggctcgtcc gccaccgctc ttctctgctt ctggccaaca gctgaagtca
+       61 cgcagttcct ggagtctgaa cccaggagac agttcgggac actggggcgt tggccccaag
+      121 ctcctcgggc tggagaagat ctggttcact ttctgttgat cccgaaggtg gcacaatcta
+      181 ttgctgagaa gagaacactg cggggcctgg agtgggggaa tgcaccgtgc ccagtgtcct
+      241 gggcatcagc acgcccaggt cttgcaggca catctcccag ccccaacaag accaggacac
+      301 ccacctccct gacccaactc ctgggcaggc agagagtgag gagtacacag tagaccccgg
+      361 gcattggtga ccacccaaaa cccaagggct gcgggctgta gcggctctgt tacctaccac
+      421 cctctggccc ctgagcccag aatgcaagga tggccagctc atctctgccc aacctggtcc
+      481 ccccgggtcc ccactgcctg cgccccttca ccccagagtc cctggcagcc atagagcagc
+      541 gggcggtgga ggaggaggcc cggctgcagc ggaacaagca gatggagatt gaggagcctg
+      601 agcggaagcc acgcagtgac ctggaagctg gcaagaacct cccactcatc tatggggacc
+      661 ccccacccga agtcattggc atccccctgg aggacctgga tccttactac agtgacaaga
+      721 agaccttcat tgtgctcaac aaaggaaagg ccatcttccg attctctgcc acgcctgccc
+      781 tctacctgct gagccccttc agcatcgtca ggagggtggc tatcaaggtg ctcattcacg
+      841 cgctgttcag catgtttatc atgatcacca tcctgaccaa ctgtgtgttc atgaccatga
+      901 gcaatccgcc ttcttggtcc aaacacgtgg agtacacctt cacggggatc tatacctttg
+      961 agtccctcat taagatgctg gcccgaggct tttgcattga tgacttcaca ttcctccgag
+     1021 acccctggaa ctggctggac ttcagtgtca tcacaatggc gtatgtgaca gagtttgtgg
+     1081 acttgggcaa catctcagcc ctgaggacct tccgtgtgct gcgggccctg aagaccatca
+     1141 cggttatccc agggctgaag acaattgtgg gagccctgat ccagtctgtg aaaaagctgt
+     1201 cggatgtgat gatcctcact gtcttctgcc tgagtgtctt tgccctggtg gggctgcagc
+     1261 ttttcatggg aaacctgcgt cagaagtgcg tgcgttggcc cccgcccatg aatgacacca
+     1321 acaccacgtg gtatggcaat gacacttggt acagcaatga cacttggtac ggcaatgaca
+     1381 cttggtacat caatgacact tggaacagcc aggagagctg ggccggcaac tctacctttg
+     1441 actgggaggc ctacatcaat gacgaaggga acttctattt cttggagggc tccaatgatg
+     1501 ctctgctctg tgggaatagc agtgatgctg ggcactgccc tgagggctac gaatgcataa
+     1561 aggctgggcg gaaccccaac tatggctaca ccagctatga caccttcagc tgggctttcc
+     1621 tggctctctt ccggctcatg acgcaggact actgggagaa ccttttccag ctgaccctac
+     1681 gagctgctgg caagacctac atgatcttct tcgtggtcat catcttcctg ggctccttct
+     1741 acctcatcaa tctgatcctg gccgtggtgg ccatggcgta cgctgagcag aatgaggcta
+     1801 ccctggccga agaccaggag aaagaggagg agttccaaca gatgcttgag aaatacaaaa
+     1861 aacatcagga ggaactggaa aaggctaagg ctgcccaggc tctggaaagt ggagaggagg
+     1921 cagatgggga cccaacccac aacaaagact gcaatgggag cctggatgca tccggggaga
+     1981 aggggccccc aaggccaagc tgcagcgcag acagtgccat ctcagatgct atggaggagc
+     2041 tggaagaggc ccatcagaag tgcccaccgt ggtggtacaa gtgtgcacac aaagtcctca
+     2101 tctggaactg ctgtgccccg tgggtgaagt tcaaacatat aatctacctg atcgtcatgg
+     2161 acccctttgt ggacctgggt atcaccatct gcattgtgct caacaccctc ttcatggcca
+     2221 tggagcacta ccccatgacc gagcactttg acaacgtgct ctccgtgggc aacttggtct
+     2281 tcacaggcat cttcactgcg gagatggtgt tgaagctgat tgccatggac ccctacgagt
+     2341 atttccaaca gggctggaac atctttgaca gtttcatcgt caccctcagc ctggtggagc
+     2401 tgggcctggc caacgtacag gggctgtcag tgctccgttc cttccgcctg ctgcgtgtct
+     2461 tcaagctggc caagtcatgg ccaacactca acatgctcat caaaatcatt ggcaactcag
+     2521 tgggcgcgct gggcaacctg accctggtgc tggccatcat cgtcttcatc ttcgccgtgg
+     2581 tgggcatgca gctgttcggc aagagctata aggagtgtgt gtgcaagatc gcctcagact
+     2641 gcaacctgcc tcgctggcac atgaacgact tcttccactc cttcctcatc gtcttccgca
+     2701 tcctctgcgg ggaatggatc gagaccatgt gggactgcat ggaggtggcc ggccaggcca
+     2761 tgtgcctcac cgtcttcctc atggtcatgg tcattggcaa cctggtggtc ctgaatctgt
+     2821 tcctggctct cctgctgagt tccttcagtg ctgacagcct ggcggcctcg gatgaggatg
+     2881 gcgagatgaa caacctacag attgccatcg ggcgtatcaa gtggggcatc ggttttgcca
+     2941 aaaccttcct cctggggctg ttgcgtggca agatcctgag ccccaaggaa ataatactca
+     3001 gcctcggtga gcccgggggt gccggggaaa atgccgagga gagtactccc gaggatgaga
+     3061 agaaggagcc gccaccggaa gataaggagc tgaaagacaa tcatatcctg aaccacgtgg
+     3121 gcctgaccga tggcccccgc tccagcatcg agctggacca ccttaacttc atcaacaacc
+     3181 cctacctcac catccaggtg cccattgcct ccgaggagtc tgacctggag atgcccacag
+     3241 aggaggagac agacgccttc tcggagcctg aggatatcaa gaagccccta cagcccctct
+     3301 acgacgggaa ctcctccgtc tgcagcacag ctgactacaa gccccctgaa gaggaccccg
+     3361 aggagcaggc tgaggagaac cccgaggggg agcagcctga ggaatgcttc acggaagcct
+     3421 gtgtgaagcg ctgcccctgc ctctatgtgg acatctccca gggccgtggg aaaatgtggt
+     3481 ggacactgcg cagggcctgt ttcaagattg ttgagcacaa ctggtttgag accttcattg
+     3541 tcttcatgat cttgctcagc agtggagccc tggccttcga ggacatctac attgaacagc
+     3601 gacgagtcat ccgcaccatc ctggaatacg ccgacaaggt cttcacctac atcttcatcc
+     3661 tggagatgtt gctaaagtgg gtcgcctacg gcttcaaggt gtatttcacc aatgcctggt
+     3721 gctggctcga cttcctcatc gtggacgtct ccatcatcag cctggtggca aactggctgg
+     3781 gctactctga gctggggccc atcaaatccc tgcgcacact ccgggccctg cgacctctga
+     3841 gggcactgtc tcgatttgag ggtatgaggg tggtggtgaa cgccctcctg ggagctatcc
+     3901 cctccatcat gaacgtcctc ctcgtctgcc tcatcttctg gctcatcttc agcatcatgg
+     3961 gggtcaactt gtttgctgga aagttctact actgcgtcaa caccaccacc tctgagagat
+     4021 tcgacatctc ggtggtcaac aacaagtccg agtctgagag cctcatgtat acaggccagg
+     4081 tccgctggat gaatgtcaag gtcaactacg acaacgtggg tctgggctat ctctccctcc
+     4141 ttcaggtggc cacattcaag ggttggatgg atatcatgta tgcagctgtg gactcccggg
+     4201 agaaagagga gcagccacac tatgaggtga acctctacat gtacctctac ttcgtcatct
+     4261 tcatcatctt cggctccttc ttcaccctca acctcttcat cggtgtcatc atcgacaact
+     4321 tcaaccaaca gaagaagaag tttggaggga aagacatctt catgacagag gaacagaaga
+     4381 aatactacaa tgcgatgaag aagcttggct ccaagaagcc ccagaagcca attccccggc
+     4441 ctcagaacaa gatccagggc atggtgtacg acttcgtgac gaagcaggtg tttgacatct
+     4501 ccatcatgat cctcatctgc ctcaacatgg ttactatgat ggtggagaca gatgaccaga
+     4561 gccagctcaa ggtggacatc ctgtacaaca tcaacatggt cttcattatc atcttcacag
+     4621 gggagtgtgt gctgaagatg tttgccctac gccattacta cttcaccatt ggctggaaca
+     4681 tctttgactt tgtggttgtc atcttgtcca tcgtgggcct tgcgctctct gacttgatac
+     4741 agaaatactt tgtgtcaccc acgctgttcc gtgtgatccg cttggctcgg atcgggcgtg
+     4801 tcctgcgtct gatccgcggg gccaagggca tccggacgct gctgttcgcc ctgatgatgt
+     4861 ccctgcccgc cctcttcaac atcggcctcc ttctctttct ggtcatgttc atctactcga
+     4921 tcttcggcat gtctaacttc gcctacgtca agaaagagtc aggcatcgac gacatgttta
+     4981 actttgagac ctttggcaac agtatcatct gcctcttcga gatcaccacg tcagccggct
+     5041 gggacgggct tctgaacccc atcctcaaca gtgggccccc agactgtgac ccgacgttgg
+     5101 agaacccggg taccaatgtc aggggggact gcggcaaccc ttccatcggc atctgtttct
+     5161 tctgcagcta catcatcatc tccttcctca tcgtggtcaa catgtacatt gctatcatcc
+     5221 tggagaattt caacgtggcc accgaagaga gcagcgagcc cctcagtgag gatgacttcg
+     5281 agatgttcta tgagacctgg gagaagttcg acccggacgc cactcagttc atcgactaca
+     5341 gccgcctctc ggactttgtg gacaccctgc aggagccact gaaaatcgcc aaacccaata
+     5401 agatcaagct tatcacgtta gacctgccca tggtgcccgg cgacaagatc cactgcttgg
+     5461 acatcctctt tgccctgacc aaagaggtac tgggtgactc tggggagatg gacgccctca
+     5521 agcagaccat ggaggagaag tttatggcag ctaacccttc caaggtctcc tatgagccca
+     5581 tcaccaccac cctcaagagg aagcaggagg aggtgtgtgc tatcaaaatc cagagggcct
+     5641 accgccgcca cctgctgcag cgctccgtga agcaggcctc ttacatgtac cgtcacagcc
+     5701 aggacggcaa tgacgacggg gcccccgaga aggagggatt gcttgccaac accatgaaca
+     5761 agatgtatgg ccatgagaaa gagggtgatg gtgtgcagag ccagggggag gaagagaagg
+     5821 cctctacaga ggatgctgga cccaccgtgg agcccgaacc caccagcagc tcagatactg
+     5881 ccctgactcc ttctcctcca ccactacccc cctcatcatc accgccacaa gggcagacag
+     5941 ttcgcccagg ggtcaaagag tctcttgtct agatggcagc gtcaaggctg cacgcagagt
+     6001 tggaggggaa gggctttgag atgggggcta tacaggactt gacacctggg ctgaggggta
+     6061 tggaaattgt gctcagggtt caggtgggtc ggaagcccct gctgcctgat ttcatcttta
+     6121 cgatgctctg acattctgtt ggccagggga ggccaggaca tctgaatgct gtttccttct
+     6181 tgggggagag ccagcatacc ttggaggggt tggccacctt cctgtcacta ctttaagggc
+     6241 ccaggacccc agctctagcc aagacaaaga cgaatcttaa cccccaaacc tacacctgac
+     6301 ccccagagct tagctatccc tctcgccccc ataattctag ggtgcagctt ccccctgaca
+     6361 gctcaggaat gccctgtaaa aggggaaatg gttctggtac agaaccaatt ggccgctgga
+     6421 tccggatgta tcaggctgga aacatgactt ctgaaacctt tcacccagtc agatccaggc
+     6481 cggtgggcag ctcccctggc tggcccctgg gggaagaact aaggaaggat tgccctgaga
+     6541 aattaccttt ctctagattg cgtggatggg tcaaacaggc tgggtcctgc cagctgcatt
+     6601 catgcccttg agcctgagcg cccacatctg cctggggtca ggttggaagc tctctatcaa
+     6661 gaatcgcccg ttcccgcctc cctgccttct ttctttgaat accagggctc ctgggagccc
+     6721 catcaaacac gaaagactgc cttcctcctg tctaatctct gcccccccct tccctgcccc
+     6781 ttccctgctt cctcaagtga ctctgagaat gctagaactc agcacacggg agatgagttg
+     6841 atactggggc atgcagtgag aaggctcacc aggcttggct ttggtcttct cattgcctga
+     6901 aagcaagttt tcccctgaga cagggtttct tttctccgtg tagccctggc tgcctgg
+//

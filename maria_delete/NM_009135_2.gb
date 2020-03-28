@@ -1,0 +1,416 @@
+LOCUS       NM_009135               7333 bp    mRNA    linear   ROD 25-MAR-2020
+DEFINITION  Mus musculus sodium channel, voltage-gated, type VII, alpha (Scn7a),
+            mRNA.
+ACCESSION   NM_009135
+VERSION     NM_009135.2
+KEYWORDS    RefSeq; RefSeq Select.
+SOURCE      Mus musculus (house mouse)
+  ORGANISM  Mus musculus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Glires; Rodentia; Myomorpha;
+            Muroidea; Muridae; Murinae; Mus; Mus.
+REFERENCE   1  (bases 1 to 7333)
+  AUTHORS   Nomura K, Hiyama TY, Sakuta H, Matsuda T, Lin CH, Kobayashi K,
+            Kobayashi K, Kuwaki T, Takahashi K, Matsui S and Noda M.
+  TITLE     [Na(+)] Increases in Body Fluids Sensed by Central Nax Induce
+            Sympathetically Mediated Blood Pressure Elevations via
+            H(+)-Dependent Activation of ASIC1a
+  JOURNAL   Neuron 101 (1), 60-75 (2019)
+   PUBMED   30503172
+  REMARK    GeneRIF: Nax channels are expressed in specific glial cells in the
+            organum vasculosum lamina terminalis which detects increases in
+            Na(+) in body fluids.
+REFERENCE   2  (bases 1 to 7333)
+  AUTHORS   Matsuda T, Hiyama TY, Niimura F, Matsusaka T, Fukamizu A, Kobayashi
+            K, Kobayashi K and Noda M.
+  TITLE     Distinct neural mechanisms for the control of thirst and salt
+            appetite in the subfornical organ
+  JOURNAL   Nat. Neurosci. 20 (2), 230-241 (2017)
+   PUBMED   27991901
+  REMARK    Erratum:[Nat Neurosci. 2017 May 25;20(6):896. PMID: 28542153]
+REFERENCE   3  (bases 1 to 7333)
+  AUTHORS   Dilg D, Saleh RN, Phelps SE, Rose Y, Dupays L, Murphy C, Mohun T,
+            Anderson RH, Scambler PJ and Chapgier AL.
+  TITLE     HIRA Is Required for Heart Development and Directly Regulates Tnni2
+            and Tnnt3
+  JOURNAL   PLoS ONE 11 (8), e0161096 (2016)
+   PUBMED   27518902
+  REMARK    Publication Status: Online-Only
+REFERENCE   4  (bases 1 to 7333)
+  AUTHORS   Sakuta H, Nishihara E, Hiyama TY, Lin CH and Noda M.
+  TITLE     Nax signaling evoked by an increase in [Na+] in CSF induces water
+            intake via EET-mediated TRPV4 activation
+  JOURNAL   Am. J. Physiol. Regul. Integr. Comp. Physiol. 311 (2), R299-R306
+            (2016)
+   PUBMED   27252474
+  REMARK    GeneRIF: These results suggest that the Na(+) signal generated in
+            Nax-positive glial cells leads to the activation of TRPV4-positive
+            neurons in sCVOs to stimulate water intake by using EETs as
+            gliotransmitters.
+REFERENCE   5  (bases 1 to 7333)
+  AUTHORS   Budry L, Balsalobre A, Gauthier Y, Khetchoumian K, L'honore A,
+            Vallette S, Brue T, Figarella-Branger D, Meij B and Drouin J.
+  TITLE     The selector gene Pax7 dictates alternate pituitary cell fates
+            through its pioneer action on chromatin remodeling
+  JOURNAL   Genes Dev. 26 (20), 2299-2310 (2012)
+   PUBMED   23070814
+REFERENCE   6  (bases 1 to 7333)
+  AUTHORS   Tarantino LM, McClearn GE, Rodriguez LA and Plomin R.
+  TITLE     Confirmation of quantitative trait loci for alcohol preference in
+            mice
+  JOURNAL   Alcohol. Clin. Exp. Res. 22 (5), 1099-1105 (1998)
+   PUBMED   9726281
+REFERENCE   7  (bases 1 to 7333)
+  AUTHORS   Knittle TJ, Doyle KL and Tamkun MM.
+  TITLE     Immunolocalization of the mNav2.3 Na+ channel in mouse heart:
+            upregulation in myometrium during pregnancy
+  JOURNAL   Am. J. Physiol. 270 (2 Pt 1), C688-C696 (1996)
+   PUBMED   8779936
+REFERENCE   8  (bases 1 to 7333)
+  AUTHORS   Seldin MF, Rochelle JM, Tomlinson MG and Wright MD.
+  TITLE     Mapping of the genes for four members of the transmembrane 4
+            superfamily: mouse Cd9, Cd63, Cd81, and Cd82
+  JOURNAL   Immunogenetics 42 (5), 422-425 (1995)
+   PUBMED   7590978
+REFERENCE   9  (bases 1 to 7333)
+  AUTHORS   Felipe A, Knittle TJ, Doyle KL and Tamkun MM.
+  TITLE     Primary structure and differential expression during development and
+            pregnancy of a novel voltage-gated sodium channel in the mouse
+  JOURNAL   J. Biol. Chem. 269 (48), 30125-30131 (1994)
+   PUBMED   7982916
+REFERENCE   10  (bases 1 to 7333)
+  AUTHORS   Potts JF, Regan MR, Rochelle JM, Seldin MF and Agnew WS.
+  TITLE     A glial-specific voltage-sensitive Na channel gene maps close to
+            clustered genes for neuronal isoforms on mouse chromosome 2
+  JOURNAL   Biochem. Biophys. Res. Commun. 197 (1), 100-104 (1993)
+   PUBMED   8250913
+COMMENT     ##Evidence-Data-START##
+            Transcript exon combination :: L36179.2 [ECO:0000332]
+            RNAseq introns :: mixed/partial sample support SAMN00849374,
+            SAMN00849375 [ECO:0000350]
+            ##Evidence-Data-END##
+            ##RefSeq-Attributes-START##
+            RefSeq Select criteria :: based on single protein-coding transcript
+            ##RefSeq-Attributes-END##
+            VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            AL928720.6 and AL928623.5.
+            On Sep 7, 2007 this sequence version replaced NM_009135.1.
+            Sequence Note: The RefSeq transcript and protein were derived from
+            genomic sequence to make the sequence consistent with the reference
+            genome assembly. The genomic coordinates used for the transcript
+            record were based on alignments.
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+FEATURES             Location/Qualifiers
+     source          1..7333
+                     /organism="Mus musculus"
+                     /mol_type="mRNA"
+                     /strain="C57BL/6"
+                     /db_xref="taxon:10090"
+                     /chromosome="2"
+                     /map="2 39.21 cM"
+     gene            1..7333
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /note="sodium channel, voltage-gated, type VII, alpha"
+                     /db_xref="GeneID:20272"
+                     /db_xref="MGI:MGI:102965"
+     exon            1..201
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    186..188
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /note="upstream in-frame stop codon"
+     exon            202..452
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             216..5261
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /note="sodium channel, voltage-gated, type VI, alpha
+                     polypeptide"
+                     /codon_start=1
+                     /product="sodium channel protein type 7 subunit alpha"
+                     /protein_id="NP_033161.2"
+                     /db_xref="CCDS:CCDS16081.1"
+                     /db_xref="GeneID:20272"
+                     /db_xref="MGI:MGI:102965"
+                     /translation="MLTSPEPKGLVPFTTESLELIENHIAKKCNEDPEEEEGLKPSRNL
+                     EAGKRLPIPYGTLPRGTVSEPLEDVDPYYYVKRNTFMVLNRSRVIFRFNAVSIFCTLSP
+                     LNSLRRAAIKALVHPLFRLLILISVLTDSILMCMSNLPEWILAIENTLLGIYAFEILVK
+                     VIARGIWAGSFSFLGDLWNWLDFSVTLFELITRFSPLSSFLMLKTIRTFRILKIIPLNH
+                     GLQSIVMTLAQCLKKLFGAIALALFFLAVFSLLGMGLFMGNLKHKCLRWPEENENETLH
+                     NRTGSLNYSPERINFYYMEGAKYALLCGNRTDAGQCPEGYVCVKEGTNPDNGFTSFDNF
+                     GWSLLAMFRLMTQDYPELLYHQILYASGKVYMIFFVMISFWFAFYLTSLFLGILTMTYE
+                     KEKQRACEESGGLDPKCQQTVKELDEENDAAEMETTQIEMKKRSPTSINTTLDILEDTT
+                     LGHREEPETSRKKCPICWHKFIKTCFIWKCSPCWVKLNEFADRVITHPLADLFLVICIV
+                     LNICFLALEHFPMSEELRSLLHVGNLVFIGIYTIEMILKIIAMHPYGYFQISWNIFDSI
+                     LVVLELTEILLADVEGLAVLITVPLIFIKLGKYGPPFKSLMRILGSSLMALKDLVLLLC
+                     IFVYFSAVFGMKLFGRSYKDCVCHIKEDCQPQRWHMSDFLHAYMTVFRILCGEWIETLW
+                     ECMEVAGQAWCIPFYMMVILIGNLLILYLFVTLVSSFSYYDATSEVNKEAKNLQLAMAR
+                     IKSGINSMLLKLMCTERSVPTEATDQICDPSVKENISGHTLSELSNTQTFLRYKDQSSS
+                     TEKTPVTESESQSLIASPSASETVPIASGESDIENLDNKETRSKSGNGGSKEKMKQSSS
+                     SECSTVDIAISEEEEMVYEHEKSKLHKNGYERKSSTGQISRESRNGKIWKNIRKTCCKI
+                     VENSWFECFIGLVTLLCTGTLALEDIYIDQRKTTKILLEYADMIFAYIFILEMLLKWVA
+                     YGFKAFFSNNWYKLDFMVVIVFCLSLIGKTREDLNPLTSIKFLRALRVLSQFERMKVVL
+                     RALIKTTLPTVSVFLVCLMIWLLFSVIGVQLFAGKFYECIDPTKGERFPVFEVMNKSQC
+                     EKLLFNESMPWENAKLNFDNVGNGFLSLLQVATFNGWISIMNSAIDSVGVNMQPSFEYN
+                     LYMYSYFIIFVIFGLFLPLCMLIGVIIRNFNKQKIKQGGSNIFITVKQKKQYRALKKLL
+                     YADVQKPTPRPRNKFQGFLFDLVTHRVFNVIIILLICFQATTIMIQKDEQSPQMETAIF
+                     WMNSIFVMLFTLECILKLTAFRCHYFTSAWNVHDFMVVIFSITGLLLPLTIGQYFVPPS
+                     LVQLILLSRVIHILRPGKGPKVFHDLMLPLILALPALLNISLLIFLVMFIYAIFGMYNF
+                     AYVKKEAGINDVSNFETFGSSMLCLFQVTTFSGWDGMLDAIFNSQWSDCDPDKINPGTQ
+                     VKGDCGSPSVGISYFVSYILISWLIIVNMYIVLIMEFLSIPSQKKSRTLSEDDFRRFFR
+                     VWNRFDPDRTQYIDSSKLSDFAAALDPPLFMAKPNKGQLVAMDLPMAAGDRIHCLDILL
+                     AFTKRVMGKDERVEKILSEIESGFMLANPFKITYEPITTTLKRKQEAVSATIIQRAYKS
+                     YRLRQNDKNVSDTPAIDDRRDDLTSKGAHSGKIEEKASIQTQI"
+     exon            453..571
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            572..661
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            662..790
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            791..882
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            883..1089
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1090..1159
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1160..1301
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1302..1508
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1509..1605
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1606..1844
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1845..2015
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2016..2372
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2373..2807
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2808..2913
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2914..3068
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3069..3242
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3243..3350
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3351..3629
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3630..3683
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3684..3821
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3822..3926
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3927..4197
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4198..7333
+                     /gene="Scn7a"
+                     /gene_synonym="1110034K09Rik; AI642000; NaG; Nav2; Nav2.3;
+                     Nax; Scn6a"
+                     /inference="alignment:Splign:2.1.0"
+ORIGIN
+        1 gtctgtaggt ggtctctggg tctgtggagc tagcctggtg gctgagtgtt tagctggaag
+       61 cagcagtgga ccgcaaccac attgcaacaa cctccgtagt agagatctga gaagacaagc
+      121 ccaggagagc aaagggctct cgtgagcctt gcatctgggg ttcttgctgg agttttagtg
+      181 aagactagca tttgacagca agtataaaac cgaaaatgtt gacttcccca gagccgaagg
+      241 gccttgtccc atttacaaca gagtcacttg aacttataga aaatcacatt gctaaaaaat
+      301 gcaatgaaga ccccgaagaa gaagaaggtt taaaaccaag tcgtaatcta gaagctggca
+      361 aaagacttcc aattccctat ggaaccctcc ctcgaggaac cgtgtcagag cccttggaag
+      421 atgtggatcc atactactat gttaagagaa atactttcat ggtcttaaac agaagcagag
+      481 tcatcttcag gttcaatgcg gtttccatct tctgcacatt gtctcctcta aactccctca
+      541 gaagagcagc tatcaaggct ttggtgcatc ccctttttcg cctgctgatt ttaatcagcg
+      601 ttctcactga cagcatactt atgtgcatga gtaatctacc agaatggata ttggcaatag
+      661 agaatacttt gcttgggatt tacgcatttg aaatacttgt aaaagtcatt gcaagaggta
+      721 tctgggcagg ttcattttcc ttccttgggg atctttggaa ctggcttgat ttcagtgtaa
+      781 ctttgttcga gctaatcaca aggttttcac ctctaagctc ctttttaatg cttaaaacta
+      841 tcagaacttt ccgaattttg aagattatcc ctttgaacca cggcctgcag tctattgtga
+      901 tgacactggc ccagtgtttg aagaaactat ttggtgccat tgccctagct ctgttttttc
+      961 tggctgtgtt ttcactactt ggaatgggcc tcttcatggg caacctgaag cacaaatgtc
+     1021 tgcggtggcc agaagaaaat gaaaatgaaa cgctgcacaa cagaactgga agccttaact
+     1081 atagtccaga aagaataaac ttctactaca tggaaggagc gaaatatgct ctcctttgcg
+     1141 gcaacaggac agatgctggc cagtgtccgg aaggttatgt gtgtgtaaaa gaaggcacaa
+     1201 atcctgacaa tggcttcaca agttttgaca actttggctg gtcccttctt gctatgtttc
+     1261 gattgatgac acaggattac cctgaattac tttatcacca gatcctttat gcttcaggaa
+     1321 aggtctacat gatatttttt gttatgatca gtttctggtt tgccttctat ttgacaagtt
+     1381 tgttcttggg catactcact atgacctatg aaaaggaaaa gcagagagcc tgtgaggaat
+     1441 ctggaggcct tgatcccaaa tgtcaacaga cagtgaaaga actcgacgaa gaaaatgacg
+     1501 cagctgagat ggaaactaca caaatagaaa tgaagaaaag atccccaact tctataaaca
+     1561 ccacactgga tatactggaa gacactaccc tcggacacag agaagaacca gaaacatcca
+     1621 ggaagaaatg cccaatatgt tggcataagt ttattaaaac ctgcttcatc tggaaatgct
+     1681 ctccctgttg ggtaaaactg aacgagtttg ctgatagagt tataacacac ccattggctg
+     1741 atctttttct tgtcatctgc atcgttttaa acatatgctt cctcgcccta gaacattttc
+     1801 caatgagcga ggagctcagg tctctccttc acgttggaaa tttggttttt attggaattt
+     1861 acacaataga aatgattttg aagataatcg ctatgcatcc atatgggtat tttcaaataa
+     1921 gctggaatat ttttgacagt atacttgtgg ttttggagtt aacagaaatt ttactagcag
+     1981 atgttgaagg actagctgtt ttaataacag tcccattgat atttataaaa ctggggaagt
+     2041 acggaccacc atttaagagt ttgatgcgca tccttggtag ctcattgatg gccctgaaag
+     2101 atttggtcct gttgctctgc atattcgttt acttctctgc tgtgttcggc atgaagctgt
+     2161 ttggtcgaag ttacaaggat tgtgtctgcc acataaagga agactgccaa ccccaacgct
+     2221 ggcacatgag tgacttcctt catgcctaca tgaccgtgtt ccgaatcctc tgtggagagt
+     2281 ggatagagac attatgggag tgtatggagg ttgcaggcca ggcctggtgt attccttttt
+     2341 acatgatggt cattttaatt ggaaacttat tgatacttta cctctttgtg acattggtga
+     2401 gctctttcag ttactatgat gctacatcgg aagtgaacaa agaagccaaa aaccttcagc
+     2461 ttgccatggc aaggataaag tcgggaataa actccatgct tcttaaatta atgtgcacag
+     2521 aaagaagtgt tcctacagaa gcaacagacc aaatatgtga tccaagtgtt aaagagaata
+     2581 tttctggcca tactctttct gaactgagca acacccaaac tttcctcaga tataaggacc
+     2641 agagcagcag cactgagaaa actccagtga ctgaatctga gagtcaatct ctgattgcta
+     2701 gtcccagtgc ctctgaaact gtgccgattg cttcaggaga atctgatata gaaaatctgg
+     2761 ataacaagga gactcggagc aagtctggga atggaggcag taaagagaaa atgaagcagt
+     2821 ctagctcatc tgagtgcagc acagttgata tcgctatttc tgaagaagaa gaaatggtct
+     2881 atgaacatga aaagtcaaag cttcataaaa atggttatga acgcaaatct tcaactggtc
+     2941 aaatcagtag agaatctagg aatggaaaga tttggaaaaa catcaggaaa acttgctgca
+     3001 agatagtaga gaacagctgg tttgagtgtt tcattggcct ggtcactctg ctctgcacag
+     3061 gcactctggc tcttgaagac atatatattg atcagagaaa aaccactaaa atcttactgg
+     3121 aatatgcgga catgatattt gcatacatct tcattctgga gatgcttctc aagtgggtgg
+     3181 cttatggctt taaagccttt ttctccaaca actggtacaa actggacttt atggttgtta
+     3241 tcgtgttttg tcttagctta ataggcaaaa ctcgagaaga tctgaaccct ctgacatcaa
+     3301 taaagttcct tcgagcacta agagttctgt cgcagtttga aagaatgaag gtggtcctga
+     3361 gagctttgat aaaaacaacc ttacccactg tgagcgtgtt tctagtctgc ctaatgatct
+     3421 ggctgctttt cagtgttatt ggagtgcagt tatttgctgg caagttctat gaatgcattg
+     3481 acccaacaaa gggagaaaga ttccctgtat ttgaagttat gaataaaagt cagtgtgaaa
+     3541 aactgttatt caatgaatca atgccgtggg agaatgcaaa actgaacttt gataatgttg
+     3601 gaaatggttt tctttcttta ctccaagtgg caacatttaa tggatggatc agtattatga
+     3661 attcagcaat tgattctgtt ggtgtaaaca tgcagcccag ctttgagtac aacctctaca
+     3721 tgtatagtta ctttatcatc tttgttatct ttggattatt tcttcctctc tgtatgctga
+     3781 ttggtgttat tattcgcaat ttcaacaagc agaaaattaa gcagggagga tcaaacatct
+     3841 ttataacagt aaaacagaaa aaacagtacc gggccctgaa gaagctcttg tatgcagacg
+     3901 tccagaaacc aacaccccgc cccagaaaca aattccaagg cttccttttt gacctagtaa
+     3961 cacaccgtgt ctttaatgtt atcatcatac ttcttatctg tttccaagca acaaccatta
+     4021 tgatacaaaa ggatgagcag agtccacaaa tggaaactgc catcttctgg atgaactcca
+     4081 tttttgtcat gctgttcact ctggaatgca tactgaagct cactgccttc cgttgccact
+     4141 acttcaccag tgcatggaat gttcatgact ttatggtggt cattttctcc attacagggc
+     4201 tgctgctacc cttgacaata ggacaatact ttgtgcctcc ttccctggtg cagctgattc
+     4261 ttctctctcg agtcatccac atcctgcgtc ctgggaaagg accgaaggtg ttccatgacc
+     4321 tgatgcttcc cttgattctg gcgctcccag cattgctgaa cattagtctt ctcatcttcc
+     4381 tggtcatgtt catctacgcc atctttggaa tgtacaactt tgcctatgta aagaaagaag
+     4441 ccggaattaa tgatgtgtcc aactttgaga cctttggaag cagtatgctc tgtctcttcc
+     4501 aagttacaac gttttctggt tgggacggga tgctggatgc aattttcaac agtcagtggt
+     4561 ctgactgcga tcctgataaa attaatccag ggactcaggt caagggagat tgtgggagcc
+     4621 cttctgttgg gatttcttat tttgtcagtt acatcctcat atcatggttg atcattgtta
+     4681 acatgtacat tgtgttgatc atggagttct taagtattcc ttctcagaaa aaaagcagga
+     4741 ccttgagtga agatgacttt aggagattct tccgggtgtg gaacaggttt gaccctgata
+     4801 ggacccagta catagactct agcaagcttt ctgattttgc agctgctctg gatcctcctc
+     4861 ttttcatggc aaaaccaaac aagggccagc ttgtggccat ggatctcccc atggctgcgg
+     4921 gagacagaat ccactgcctc gacattttac ttgcctttac gaaaagagtg atgggaaagg
+     4981 atgagagggt ggagaaaatc ctttcagaga tagaatccgg gttcatgtta gcgaaccctt
+     5041 tcaaaatcac ttatgagccg attacaacta ctttgaaacg caaacaagag gcagtttcag
+     5101 caaccatcat ccagcgtgca tataaaagct accgcttaag gcaaaatgac aagaatgtat
+     5161 cagatactcc tgctatagat gaccgcagag atgatcttac ttctaaaggt gctcactctg
+     5221 gcaaaatcga ggagaaggca tctattcaga cccagattta atgacacttc ccacttctac
+     5281 tttctttaca tatgtcccca agcactaaat gttaactgat cttaagctgg agatcagaaa
+     5341 ctagagataa tgataacatc tgtgtgccca gacatctcca tgacaagctc agctttaggg
+     5401 tcagtcttct gatgcatcag aaaagacagc agctcagcgt tgctgcgggt agctgaacta
+     5461 ggttactgtt gtctttttgg ctatttaaaa tgtttctact tggcttgtct agtgtggcct
+     5521 ctagtggaag atgtgtagga ggaaaggaga agaaagggaa ataaaggtca gcagctatac
+     5581 agttttcctt gtatatttta tatataattt tagaggcaac atgttgccac ccttgaggct
+     5641 tagtggttaa tatgagataa ttccttaaag tgcaattgtg cttcagaaat aaaaaagccc
+     5701 cgcattaaat cacaaacatg cataaacaaa tgctgggaat ggatgggaga ggaataatgc
+     5761 aggtcttcag aaagtgcctt tcagttcagt cttgggctaa tttacaagat ctatttctta
+     5821 aaacttttaa ctgaaacctc cccttccatt ttttgctttc ttcctgttgc ctttttttat
+     5881 tttgtttcct tttttttttt ttgtttgctt gcttgcttgg ctttgttgct gttctttagt
+     5941 tttggatagt agatgacatt gtttcattgc tcctggttcc tcctggcttg gcaagctctc
+     6001 tgtgagctcc ccagcagctg agatttccag agcaggaagc atagaagaaa ccacccttaa
+     6061 taatgagtac attttctgta tttgattcac atttatatct tttttaaagt gcacatttac
+     6121 taaaaggata caataaagaa aaacgttaat ggactaaagc tttaccttat tctaaaaact
+     6181 ggtgtatttt ttaccactta tccatagcag gtgcatgcta tcattaaatt agaagagtca
+     6241 agggcaacca gcatgtttag ggattttctg tgccctgacc cttaatttgg aaactggcca
+     6301 cttgaaaggt ctttccattg cactttgtat ttcttaaaat gtaaagaaga aagttatcct
+     6361 tcaaacaata gggcttgtca attaacagat gaaagttaag ttggtatttt ataacaccat
+     6421 tatatacaca ttagttttag tgttcactta tcttttcctt tctttgtttt ctatcttgtt
+     6481 atacatctaa atactcatgc aaatgttttc tagttgagaa tctatgaaat aacagacatt
+     6541 agttttaact actgacatta tttttgttaa tataaatagt tttaatttct tcacaaaaat
+     6601 tgttgacttc cattcatgta gtttgagaaa tgatattttc ttcatttgaa taaaaaactg
+     6661 atttcactgt gcctatgaag tcctccagaa ttaaaaaaga aaaaaatata tattctactg
+     6721 acttagataa gaagcgttaa ataggtttta tgaaactcaa tgccattata tcctagagat
+     6781 tgtattttgt aatgaacgca tggacttgag ccttaattcc tgtaatctac ttccaatctt
+     6841 caaaactctg tgaccttacc aacttgcctt ggatgatcac ccaagtaaat gtaatttcag
+     6901 aatctggtgg tttttctgga tgttgcttgt ttgtttgtta gtttggtttg tttggttggt
+     6961 tggttggttg gtttttatta aagtatttcc ctttcactct tcactctctg tcatgtgatg
+     7021 gagcctagag aagcatggga ggtctaactg gtgacatgat gacagcttct gtgtaaccgc
+     7081 aatgtctcag ttttccaact tctgggaatg tcttagtgag gaaagtgcta cagatagtaa
+     7141 gactgaatca taacttgctt ccataaatcc cattaaaaca acacactgag tttgtaaagt
+     7201 attttgctgt tacctataaa gaatgacaag caatagccat ccaaaaagta gaatgtttca
+     7261 tttctgaatg actgttacag aatatccttc ttctgagatc ccatagaaaa taataaatat
+     7321 aacctgctaa gca
+//
