@@ -2,7 +2,7 @@ import os
 CHANNELS = os.listdir('dataset')
 
 def get_articles(channel_name):
-    res = os.listdir(f'dataset/{channel_name}/article')
+    res = os.listdir('dataset/{}/article'.format(channel_name))
     res = list(map(lambda x: x[:-4], res))
     return res
 

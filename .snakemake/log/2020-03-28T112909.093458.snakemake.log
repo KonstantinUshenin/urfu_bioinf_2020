@@ -1,0 +1,5 @@
+KeyError in line 5 of /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile:
+'channel_name'
+  File "/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile", line 57, in <module>
+  File "/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile", line 57, in <listcomp>
+  File "/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile", line 5, in get_articles

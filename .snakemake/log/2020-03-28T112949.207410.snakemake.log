@@ -1,0 +1,92 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	articles_indexs
+	1	cat_indexs
+	1	fusion
+	1	global_alignment
+	1	plot_tree
+	1	request
+	1	tree_builder
+	7
+
+[Sat Mar 28 11:29:49 2020]
+rule articles_indexs:
+    input: dataset/CaL/article/fphys-07-00481.pdf
+    output: dataset/CaL/articles_indexs/fphys-07-00481.txt
+    jobid: 6
+    wildcards: channel=CaL, article=fphys-07-00481
+
+[Sat Mar 28 11:29:51 2020]
+Finished job 6.
+1 of 7 steps (14%) done
+
+[Sat Mar 28 11:29:51 2020]
+rule cat_indexs:
+    input: dataset/CaL/articles_indexs/fphys-07-00481.txt
+    output: indexs.txt
+    jobid: 5
+
+Removing temporary output file dataset/CaL/articles_indexs/fphys-07-00481.txt.
+[Sat Mar 28 11:29:51 2020]
+Finished job 5.
+2 of 7 steps (29%) done
+
+[Sat Mar 28 11:29:51 2020]
+rule fusion:
+    input: indexs.txt, fixed.txt
+    output: workflow/clear_indexs.csv
+    jobid: 4
+
+Removing temporary output file indexs.txt.
+[Sat Mar 28 11:29:54 2020]
+Finished job 4.
+3 of 7 steps (43%) done
+
+[Sat Mar 28 11:29:54 2020]
+rule request:
+    input: workflow/clear_indexs.csv
+    output: workflow/all_sequences.fasta
+    jobid: 3
+
+Removing temporary output file workflow/clear_indexs.csv.
+[Sat Mar 28 11:29:56 2020]
+Finished job 3.
+4 of 7 steps (57%) done
+
+[Sat Mar 28 11:29:56 2020]
+rule global_alignment:
+    input: workflow/all_sequences.fasta
+    output: workflow/all_sequences.aln
+    jobid: 2
+
+Removing temporary output file workflow/all_sequences.fasta.
+[Sat Mar 28 11:29:59 2020]
+Finished job 2.
+5 of 7 steps (71%) done
+
+[Sat Mar 28 11:29:59 2020]
+rule tree_builder:
+    input: workflow/all_sequences.aln
+    output: workflow/tree.dnd, workflow/score.txt
+    jobid: 1
+
+Removing temporary output file workflow/all_sequences.aln.
+Removing temporary output file workflow/score.txt.
+[Sat Mar 28 11:30:01 2020]
+Finished job 1.
+6 of 7 steps (86%) done
+
+[Sat Mar 28 11:30:01 2020]
+rule plot_tree:
+    input: workflow/tree.dnd
+    jobid: 0
+
+Removing temporary output file workflow/tree.dnd.
+[Sat Mar 28 11:30:03 2020]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/.snakemake/log/2020-03-28T112949.207410.snakemake.log
