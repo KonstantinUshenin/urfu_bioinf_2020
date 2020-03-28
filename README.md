@@ -2,7 +2,7 @@
 Pipeline for building of philogenetic trees
 Start comamnd
 ```
-snakemake
+snakemake --cores=1
 ```
 
 Force start pipline
