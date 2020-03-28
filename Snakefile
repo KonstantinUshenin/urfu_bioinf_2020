@@ -54,7 +54,7 @@ rule fusion:
 
 rule cat_indexs:
     input:
-        [f"dataset/{channel}/articles_indexs/{article}.txt" for channel in CHANNELS for article in get_articles(channel)]
+        ["dataset/{}/articles_indexs/{}.txt".format(channel, article) for channel in CHANNELS for article in get_articles(channel)]
     output:
         temp("indexs.txt")
     shell:
