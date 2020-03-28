@@ -1,3 +1,0 @@
-AttributeError in line 11 of /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile:
-'Rules' object has no attribute 'articles_indexs'
-  File "/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile", line 11, in <module>

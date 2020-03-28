@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 14 of /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile:
-Missing input files for rule articles_indexs:
-dataset/RyR/article/fphys-07-00481.pdf

@@ -1,4 +1,0 @@
-FileNotFoundError in line 8 of /home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile:
-[Errno 2] No such file or directory: "dataset/['CaL', 'RyR', 'K']/article"
-  File "/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile", line 24, in <module>
-  File "/home/mark/Рабочий стол/bioinf/urfu_bioinf_2020/Snakefile", line 8, in get_articles
