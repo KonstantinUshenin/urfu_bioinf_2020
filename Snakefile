@@ -19,12 +19,12 @@ rule all:
   
 rule article_index:
     input:
-        "dataset/{channel}/article/{article}.pdf"
+        "dataset/{channel}/article/{article}.html"
     output:
         "workflow/{channel}/article_index/{article}.txt"
     shell:
-        'python notebook_template/cat.py "{input}" > "{output}"'
-  
+        'python3 notebook_template/article_index.py {input} {output}'
+
 rule request_index:
     input:
         "dataset/{channel}/request.txt"
