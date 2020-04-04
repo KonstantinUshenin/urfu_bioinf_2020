@@ -27,7 +27,8 @@
 #                    - Version number now a 'constant' - MEJT
 #
  
-import sys, os
+import sys
+import os
 import time
  
 VERSION = 0.3

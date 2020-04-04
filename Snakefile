@@ -56,7 +56,7 @@ rule fusion:
         file_in_1 = input[0]
         file_in_2 = input[1]
         file_out = output
-        shell('python notebook_template/cat.py "{file_in_1}" "{file_in_2}" > "{file_out}"') # TODO TEMPORARY SOLUTION!
+        shell('python notebook_template/cat.py "{file_in_1}" "{file_in_2}" > "{file_out}"')
   
 rule request_sequence:
     input:

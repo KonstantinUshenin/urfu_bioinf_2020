@@ -8,6 +8,11 @@ genes or articles in the format html. At the output of the pipeline you
 can receive pictures with your phylogenetic trees. 
 Pipeline can be configured for any phylogenetic tree creation.  
 
+## Denpendences
+* matplotlib
+* Biopython
+* ClustalW
+
 ## Installation
 
 1. Clone this repository to your workflow
@@ -26,4 +31,3 @@ and add to folder `article/` articles you are interested in
 
 3.  That's all. You can tun pipeline by execute command
 `snakemake --cores=1 --forceall`
-
