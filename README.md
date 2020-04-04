@@ -9,7 +9,8 @@ can receive pictures with your phylogenetic trees.
 Pipeline can be configured for any phylogenetic tree creation.  
 
 ## Denpendences
-* matplotlib
+* Snakemake
+* Matplotlib
 * Biopython
 * ClustalW
 
