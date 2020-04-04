@@ -44,6 +44,7 @@ rule fusion__join_all_index:
             if "workflow/{}/".format(wildcards.channel) in file_in:
                 file_out = output
                 shell('cat "{file_in}" >> "{file_out}"')
+        # shell('sort {file_out} | uniq > {file_out} ')
   
 rule fusion:
     input:
