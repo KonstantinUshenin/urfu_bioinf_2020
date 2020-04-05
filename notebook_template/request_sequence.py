@@ -2,11 +2,8 @@
 # coding: utf-8
 
 # In[13]:
-
-
 import sys
-import os
-from Bio import Entrez, SeqIO
+from Bio import Entrez
 from urllib.error import HTTPError
 
 Entrez.email = 'example@gmail.com'
@@ -32,14 +29,12 @@ out_filename = sys.argv[2] if len(sys.argv) >= 3 else snakemake.output
 
 genes = []
 with open(in_filename) as file:
-    file.readline() #Pass .csv header
+    # file.readline() #Pass .csv header
     for line in file.readlines():
         line = line.split(',')
         genes.append(line[0].strip())
 
-genes = list(filter(lambda x: len(x)>0, genes))
-
-genes
+genes = list(filter(lambda x: len(x) > 0, genes))
 
 
 # In[16]:

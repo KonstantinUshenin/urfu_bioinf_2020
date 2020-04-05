@@ -31,7 +31,7 @@ rule request_index:
     output:
         "workflow/{channel}/request_index/index.txt"
     shell:
-        'python notebook_template/cat.py "{input}" > "{output}"'
+        'python3 utils/cat.py "{input}" > "{output}"'
         
 rule fusion__join_all_index:
     input:
@@ -43,7 +43,8 @@ rule fusion__join_all_index:
         for file_in in input:
             if "workflow/{}/".format(wildcards.channel) in file_in:
                 file_out = output
-                shell('python notebook_template/cat.py "{file_in}" >> "{file_out}"')
+                shell('python3 utils/cat.py "{file_in}" >> "{file_out}"')
+                shell('python3 utils/uniq.py "{file_out}" "{file_out}"')
         # shell('sort {file_out} | uniq > {file_out} ')
   
 rule fusion:
@@ -51,20 +52,20 @@ rule fusion:
         "workflow/{channel}/fusion/all_index.txt",
         "dataset/{channel}/fixes.txt"
     output:
-        "workflow/{channel}/fusion/clear_index.csv"
+        "workflow/{channel}/fusion/clear_index.txt"
     run:
         file_in_1 = input[0]
         file_in_2 = input[1]
         file_out = output
-        shell('python notebook_template/cat.py "{file_in_1}" "{file_in_2}" > "{file_out}"')
+        shell('python3 utils/cat.py "{file_in_1}" "{file_in_2}" > "{file_out}"')
   
 rule request_sequence:
     input:
-        "workflow/{channel}/fusion/clear_index.csv"
+        "workflow/{channel}/fusion/clear_index.txt"
     output:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
     shell:
-        "python notebook_template/request_sequence.py {input} {output}"
+        "python3 notebook_template/request_sequence.py {input} {output}"
   
 rule global_alignment:
     input:
@@ -81,7 +82,7 @@ rule tree_builder:
     output:
         "workflow/{channel}/tree_builder/tree.dnd"
     shell:
-        'python notebook_template/cat.py "{input}" > "{output}"'
+        'python3 utils/cat.py "{input}" > "{output}"'
   
 rule plot_tree:
     input:
