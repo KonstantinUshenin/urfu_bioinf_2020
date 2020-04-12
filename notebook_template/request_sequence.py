@@ -1,65 +1,63 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[13]:
 import sys
+import os
+import argparse
 from Bio import Entrez
 from urllib.error import HTTPError
+from bs4 import BeautifulSoup
+sys.path.append(os.path.dirname(os.path.abspath(__file__[:__file__.rfind(r'/')])))
+from config import request_seq
+
 
 Entrez.email = 'example@gmail.com'
-DATABASENAME = 'nucleotide'
+BASE_DB = request_seq['BASE_DB']
+SECOND_DB = request_seq['SECOND_DB']
+MARKER = request_seq['MARKER']
+PROTEIN = request_seq['PROTEIN']
+NUClEOTIDE = request_seq['NUClEOTIDE']
 
 
-# In[ ]:
-
-
-test_in_filename = "/home/kostanew/Documents/PIPELINE/urfu_bioinf_2020/dataset/Na/request.txt" 
-test_out_filename = "./sample.txt"
-
-
-# In[14]:
-
-
-in_filename = sys.argv[1] if len(sys.argv) >= 3 else snakemake.input
-out_filename = sys.argv[2] if len(sys.argv) >= 3 else snakemake.output
-
-
-# In[15]:
-
-
-genes = []
-with open(in_filename) as file:
-    # file.readline() #Pass .csv header
-    for line in file.readlines():
-        line = line.split(',')
-        genes.append(line[0].strip())
-
-genes = list(filter(lambda x: len(x) > 0, genes))
-
-
-# In[16]:
-
-
-handles = []
-for gene_id in genes:
+def request_entrez(seq_id, db=BASE_DB, rettype='fasta'):
     try:
-        with Entrez.efetch(db=DATABASENAME, id=gene_id, rettype="fasta") as handle:
-            handles.append(handle.read())
-    except HTTPError as e:
-        print("Don't found {} by Entrez".format(gene_id))
-        print(e)
+        with Entrez.efetch(db=db, id=seq_id, rettype=rettype) as response:
+            print("Founded {} in {} by Entrez".format(seq_id, db))
+            return response.read()
+    except HTTPError:
+        print("Don't found {} in {} by Entrez".format(seq_id, db))
 
 
-# In[17]:
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='This module downloads '
+                                                 'sequences by their id in '
+                                                 'some databases')
+    parser.add_argument('in_filename', metavar='INPUT_FILE',
+                        help='file with ids of sequences')
+    parser.add_argument('out_filename', metavar='OUTPUT_FILE',
+                        help='fasta file, when you want ot write sequences')
+    args = parser.parse_args()
 
+    with open(args.in_filename) as file:
+        genes = list(map(lambda x: x.strip(), file.readlines()))
 
-handles
+    handles = []
 
+    for gene_id in genes:
+        handle = request_entrez(gene_id)
+        if handle is not None:
+            data = handle.split('\n')
+            data[0] = data[0].split()[0] + data[0][data[0].find('['):].replace(' ', '_')
+            handles.append('\n'.join(data))
+        else:
+            other_text = request_entrez(gene_id, db=SECOND_DB, rettype='html')
+            if other_text is not None:
+                soup = BeautifulSoup(other_text, 'xml')
+                res = soup.findAll(MARKER)
+                if res is not None:
+                    result = res[0].text if BASE_DB == NUClEOTIDE else res[1].text
+                    if result not in genes:
+                        genes.append(result)
 
-# In[18]:
-
-
-with open(out_filename, 'w') as file:
-    for handle in handles:
-        file.write(handle)
-
+    with open(args.out_filename, 'w') as file:
+        for handle in handles:
+            file.write(handle)

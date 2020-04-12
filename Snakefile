@@ -45,7 +45,6 @@ rule fusion__join_all_index:
                 file_out = output
                 shell('python3 utils/cat.py "{file_in}" >> "{file_out}"')
                 shell('python3 utils/uniq.py "{file_out}" "{file_out}"')
-        # shell('sort {file_out} | uniq > {file_out} ')
   
 rule fusion:
     input:
@@ -57,7 +56,7 @@ rule fusion:
         file_in_1 = input[0]
         file_in_2 = input[1]
         file_out = output
-        shell('python3 utils/cat.py "{file_in_1}" "{file_in_2}" > "{file_out}"')
+        shell('python3 notebook_template/fusion.py "{file_in_1}" "{file_in_2}" "{file_out}"')
   
 rule request_sequence:
     input:

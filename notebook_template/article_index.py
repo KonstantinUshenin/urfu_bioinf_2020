@@ -21,7 +21,7 @@ with open(in_filename) as file:
 VARIATIONS = [
     'protein',
     'gene',
-    'nuccore'  # Нуклеотид
+    'nuccore',  # Nucleotide
 ]
 
 HREFS = []
