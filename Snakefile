@@ -1,4 +1,5 @@
 import os
+from snakemake.utils import validate
 CHANNELS = os.listdir('dataset')
 
 def get_articles(channel_name):
@@ -12,6 +13,9 @@ channel_article_pair = []
 for channel in CHANNELS:
     for article in get_articles(channel):
         channel_article_pair.append((channel, article))
+
+configfile: "config.yaml"
+validate(config, "config.yaml")
 
 rule all:
     input:
@@ -63,8 +67,11 @@ rule request_sequence:
         "workflow/{channel}/fusion/clear_index.txt"
     output:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
-    shell:
-        "python3 notebook_template/request_sequence.py {input} {output}"
+    run:
+        base_db = config['properties']['base_db']['default']
+        second_db = config['properties']['second_db']['default']
+        main_db = config['properties']['main_db']['default']
+        shell("python3 notebook_template/request_sequence.py {input} {output} {main_db}")
   
 rule global_alignment:
     input:
