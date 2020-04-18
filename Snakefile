@@ -16,7 +16,7 @@ for channel in CHANNELS:
 rule all:
     input:
         expand("workflow/{channel}/plot_tree/tree.png", channel=CHANNELS),
-	expand("workflow/{channel}/plot_tree/plot_tree.png", channel=CHANNELS)
+        expand("workflow/{channel}/plot_tree/plot_tree.jpg", channel=CHANNELS)
   
 rule article_index:
     input:
@@ -73,23 +73,23 @@ rule global_alignment:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
     output:
         "workflow/{channel}/request_sequence/all_sequence.aln",
-	"workflow/{channel}/request_sequence/all_sequence.dnd"
+        "workflow/{channel}/request_sequence/all_sequence.dnd"
     run:
         shell('clustalw -infile="{input}"')
         
 
 rule R_plot_tree:
     input:
-	"workflow/{channel}/tree_builder/align.nex"
+        "workflow/{channel}/tree_builder/align.nex"
     output:
-        "workflow/{channel}/plot_tree/plot_tree.png"
+        "workflow/{channel}/plot_tree/plot_tree.jpg"
     shell:
         "Rscript --vanilla notebook_template/r_scr.R {input} {output}"
 
 
 rule convert_dnd:
     input:
-	"workflow/{channel}/tree_builder/tree.dnd"
+        "workflow/{channel}/tree_builder/tree.dnd"
     output:
         "workflow/{channel}/tree_builder/align.nex"
     shell:
