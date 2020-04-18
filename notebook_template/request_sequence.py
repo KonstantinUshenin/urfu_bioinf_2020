@@ -22,7 +22,7 @@ def request_entrez(seq_id, db='protein', rettype='fasta'):
         print("Don't found {} in {} by Entrez".format(seq_id, db))
 
 
-def save_animal_name(fasta_text):
+def save_animal_name(fasta_text):  # TO-DO: Needs refactor
     lines = fasta_text.split('\n')
     head_line = lines[0].split()
     index = head_line[0]
@@ -38,10 +38,21 @@ def save_animal_name(fasta_text):
 
 
 def find_linked_index(text):
+    print("Start parsing")
     soup = BeautifulSoup(linked_text, 'xml')
-    matched = soup.findAll(MARKER)
-    if matched is not None and len(matched) == 2:
-        return matched[0].text if MAIN_DB is NUClEOTIDE else matched[1].text
+    matches = soup.findAll(MARKER)
+    if matches is not None:
+        indexes = [match.text for match in matches]
+        print("Founded indexes {}".format(indexes))
+        if len(indexes) == 2:
+            index = indexes[0] if MAIN_DB is NUClEOTIDE else indexes[1]
+            print("Needed index is {}".format(index))
+            return index
+        else:
+            print("Error: Amount of indexes is not 2")
+    else:
+        print("Don't founded match")
+    print("End parsing", end="\n\n")
 
 
 if __name__ == '__main__':
@@ -58,10 +69,10 @@ if __name__ == '__main__':
     args = parser.parse_args()
     MAIN_DB = args.main_db
     SECOND_DB = NUClEOTIDE if MAIN_DB == PROTEIN else PROTEIN
-    print(f'Main db is {MAIN_DB}, Second db is {SECOND_DB}')
+    print('Main db is {}, Second db is {}'.format(MAIN_DB, SECOND_DB))
 
     with open(args.in_filename) as file:
-        genes = list(map(lambda x: x.strip(), file.readlines()))
+        genes = file.readlines()
 
     sequences = []
 
