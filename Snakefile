@@ -1,5 +1,8 @@
+configfile: "config.yaml"
 import os
-CHANNELS = os.listdir('dataset')
+
+CHANNELS = list(filter(lambda x: x in config['channels'], os.listdir('dataset')))
+
 
 def get_articles(channel_name):
     res = os.listdir('dataset/{}/article'.format(channel_name))
@@ -65,8 +68,9 @@ rule request_sequence:
         "workflow/{channel}/fusion/clear_index.txt"
     output:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
-    shell:
-        "python notebook_template/request_sequence.py {input} {output}"
+    run:
+        main_db = config['main_db']
+        shell("python notebook_template/request_sequence.py {input} {output} {main_db}")
   
 rule global_alignment:
     input:

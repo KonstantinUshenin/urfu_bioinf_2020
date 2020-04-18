@@ -1,7 +1,7 @@
-.idea
-.ipynb_checkpoints
-.snakemake
+/.*
 dag.svg
 workflow/*
 *.log
 */.*
+/notebook_template/.ipynb_checkpoints/
+/.snakemake/
