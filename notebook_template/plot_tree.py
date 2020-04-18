@@ -19,6 +19,7 @@ out_filename = sys.argv[2] if len(sys.argv) >= 3 else snakemake.output
 
 
 tree = Phylo.read(in_filename, "newick")
+Phylo.convert(in_filename, 'newick', out_filename, 'nexus')
 Phylo.draw(tree, do_show=False)
 plt.savefig(out_filename)
 
