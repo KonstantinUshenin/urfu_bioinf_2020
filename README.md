@@ -1,5 +1,5 @@
 # urfu_bioinf_2020
-Pipeline for building of philogenetic trees
+Pipeline for building of philogenetic treespip
 
 ## Description
 Using this pipeline you can create amazing phylogenetic trees of 
@@ -20,7 +20,7 @@ Pipeline can be configured for any phylogenetic tree creation.
 
 2. In the directory of this repository execute command for install
 dependencies 
-`pip install requiments.txt`
+`pip install -r requirements.txt`
 
 ## Usage
 
