@@ -15,7 +15,8 @@ for channel in CHANNELS:
 
 rule all:
     input:
-        expand("workflow/{channel}/plot_tree/tree.png", channel=CHANNELS)
+        expand("workflow/{channel}/plot_tree/tree.png", channel=CHANNELS),
+        expand("workflow/{channel}/plot_tree/plot_tree.jpg", channel=CHANNELS)
   
 rule article_index:
     input:
@@ -23,7 +24,7 @@ rule article_index:
     output:
         "workflow/{channel}/article_index/{article}.txt"
     shell:
-        'python3 notebook_template/article_index.py {input} {output}'
+        'python notebook_template/article_index.py {input} {output}'
 
 rule request_index:
     input:
@@ -31,7 +32,7 @@ rule request_index:
     output:
         "workflow/{channel}/request_index/index.txt"
     shell:
-        'python3 utils/cat.py "{input}" > "{output}"'
+        'python utils/cat.py "{input}" > "{output}"'
         
 rule fusion__join_all_index:
     input:
@@ -43,8 +44,8 @@ rule fusion__join_all_index:
         for file_in in input:
             if "workflow/{}/".format(wildcards.channel) in file_in:
                 file_out = output
-                shell('python3 utils/cat.py "{file_in}" >> "{file_out}"')
-                shell('python3 utils/uniq.py "{file_out}" "{file_out}"')
+                shell('python utils/cat.py "{file_in}" >> "{file_out}"')
+                shell('python utils/uniq.py "{file_out}" "{file_out}"')
         # shell('sort {file_out} | uniq > {file_out} ')
   
 rule fusion:
@@ -57,7 +58,7 @@ rule fusion:
         file_in_1 = input[0]
         file_in_2 = input[1]
         file_out = output
-        shell('python3 utils/cat.py "{file_in_1}" "{file_in_2}" > "{file_out}"')
+        shell('python utils/cat.py "{file_in_1}" "{file_in_2}" > "{file_out}"')
   
 rule request_sequence:
     input:
@@ -65,24 +66,43 @@ rule request_sequence:
     output:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
     shell:
-        "python3 notebook_template/request_sequence.py {input} {output}"
+        "python notebook_template/request_sequence.py {input} {output}"
   
 rule global_alignment:
     input:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
     output:
         "workflow/{channel}/request_sequence/all_sequence.aln",
-	"workflow/{channel}/request_sequence/all_sequence.dnd"
+        "workflow/{channel}/request_sequence/all_sequence.dnd"
     run:
         shell('clustalw -infile="{input}"')
         
+
+rule R_plot_tree:
+    input:
+        "workflow/{channel}/tree_builder/align.nex"
+    output:
+        "workflow/{channel}/plot_tree/plot_tree.jpg"
+    shell:
+        "Rscript --vanilla notebook_template/r_scr.R {input} {output}"
+
+
+rule convert_dnd:
+    input:
+        "workflow/{channel}/tree_builder/tree.dnd"
+    output:
+        "workflow/{channel}/tree_builder/align.nex"
+    shell:
+        "python3 notebook_template/dnd_convert.py {input} {output}"
+
+
 rule tree_builder:
     input:
         "workflow/{channel}/request_sequence/all_sequence.dnd"
     output:
         "workflow/{channel}/tree_builder/tree.dnd"
     shell:
-        'python3 utils/cat.py "{input}" > "{output}"'
+        'python utils/cat.py "{input}" > "{output}"'
   
 rule plot_tree:
     input:
@@ -91,3 +111,13 @@ rule plot_tree:
         "workflow/{channel}/plot_tree/tree.png"
     shell:
         "python3 notebook_template/plot_tree.py {input} {output}"
+
+
+
+
+
+
+
+
+
+	
