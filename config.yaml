@@ -1,20 +1,4 @@
-$schema: "http://json-schema.org/draft-06/schema#"
-description: an entry in the sample sheet
-properties:
-  base_db:
-    type: string
-    description: main db in request sequence
-    default: "nucleotide"
-  second_db:
-    type: string
-    description: second db in request sequence
-    default: "protein"
-  main_db:
-    type: string
-    description: second db in request sequence
-    default: "protein"
+main_db: "nucleotide"
+channels:
+  - Na
 
-required:
-  - base_db
-  - second_db
-  - main_db

@@ -1,6 +1,8 @@
+configfile: "config.yaml"
 import os
-from snakemake.utils import validate
-CHANNELS = os.listdir('dataset')
+
+CHANNELS = list(filter(lambda x: x in config['channels'], os.listdir('dataset')))
+
 
 def get_articles(channel_name):
     res = os.listdir('dataset/{}/article'.format(channel_name))
@@ -13,9 +15,6 @@ channel_article_pair = []
 for channel in CHANNELS:
     for article in get_articles(channel):
         channel_article_pair.append((channel, article))
-
-configfile: "config.yaml"
-validate(config, "config.yaml")
 
 rule all:
     input:
@@ -68,9 +67,7 @@ rule request_sequence:
     output:
         "workflow/{channel}/request_sequence/all_sequence.fasta"
     run:
-        base_db = config['properties']['base_db']['default']
-        second_db = config['properties']['second_db']['default']
-        main_db = config['properties']['main_db']['default']
+        main_db = config['main_db']
         shell("python3 notebook_template/request_sequence.py {input} {output} {main_db}")
   
 rule global_alignment:

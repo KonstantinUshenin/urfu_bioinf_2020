@@ -4,6 +4,7 @@ import argparse
 from Bio import Entrez
 from urllib.error import HTTPError
 from bs4 import BeautifulSoup
+import re
 
 
 Entrez.email = 'example@gmail.com'
@@ -23,14 +24,23 @@ def request_entrez(seq_id, db='protein', rettype='fasta'):
 
 def save_animal_name(fasta_text):
     lines = fasta_text.split('\n')
-    lines[0] = lines[0].split()[0] + lines[0][lines[0].find('['):].replace(' ', '_')
+    head_line = lines[0].split()
+    index = head_line[0]
+    if MAIN_DB == PROTEIN:
+        animal_name = re.search(r'\[(.+)\]', lines[0])
+        lines[0] = index
+        if animal_name is not None:
+            lines[0] += '_' + animal_name.group(0).split()[0][1:]
+    else:
+        animal_name = head_line[2] if head_line[1] == 'PREDICTED:' else head_line[1]
+        lines[0] = '{}_{}'.format(index, animal_name)
     return '\n'.join(lines)
 
 
 def find_linked_index(text):
     soup = BeautifulSoup(linked_text, 'xml')
     matched = soup.findAll(MARKER)
-    if matched is not None:
+    if matched is not None and len(matched) == 2:
         return matched[0].text if MAIN_DB is NUClEOTIDE else matched[1].text
 
 
@@ -53,12 +63,12 @@ if __name__ == '__main__':
     with open(args.in_filename) as file:
         genes = list(map(lambda x: x.strip(), file.readlines()))
 
-    handles = []
+    sequences = []
 
     for gene_id in genes:
         handle = request_entrez(gene_id, db=MAIN_DB)
         if handle is not None:
-            handles.append(save_animal_name(handle))
+            sequences.append(save_animal_name(handle))
         else:
             linked_text = request_entrez(gene_id, db=SECOND_DB, rettype='html')
             result = find_linked_index(linked_text)
@@ -66,5 +76,5 @@ if __name__ == '__main__':
                 genes.append(result)
 
     with open(args.out_filename, 'w') as file:
-        for handle in handles:
-            file.write(handle)
+        for sequence in sequences:
+            file.write(sequence)
