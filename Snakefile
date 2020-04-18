@@ -74,7 +74,7 @@ rule global_alignment:
         "workflow/{channel}/request_sequence/all_sequence.aln",
 	"workflow/{channel}/request_sequence/all_sequence.dnd"
     run:
-        shell('clustalw2 -infile="{input}"')
+        shell('clustalw -infile="{input}"')
         
 rule tree_builder:
     input:
