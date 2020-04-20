@@ -49,7 +49,6 @@ rule fusion__join_all_index:
                 file_out = output
                 shell('python utils/cat.py "{file_in}" >> "{file_out}"')
                 shell('python utils/uniq.py "{file_out}" "{file_out}"')
-        # shell('sort {file_out} | uniq > {file_out} ')
   
 rule fusion:
     input:
@@ -78,8 +77,8 @@ rule global_alignment:
     output:
         "workflow/{channel}/request_sequence/all_sequence.aln",
         "workflow/{channel}/request_sequence/all_sequence.dnd"
-    run:
-        shell('clustalw -infile="{input}"')
+    shell:
+        'clustalw -infile="{input}"'
         
 
 rule R_plot_tree:

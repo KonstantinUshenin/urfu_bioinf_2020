@@ -1,4 +1,4 @@
-main_db: "nucleotide"
+main_db: "protein"
 channels:
   - Ca
 
