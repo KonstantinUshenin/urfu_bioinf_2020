@@ -27,6 +27,12 @@ pip install requiments.txt
 ```sh
 Rscript --vanilla utils/build-dep-list.R R-requirements.txt 
 ```
+After that compile libraries:
+```sh
+cd utils/
+make
+```
+
 ## Usage
 
 1. Make dir in folder `dataset` with name of your channel
@@ -40,10 +46,4 @@ and add to folder `article/` articles you are interested in
 
 ```sh
 snakemake --cores=1 --forceall
-```
-
-After that compile libraries:
-```sh
-cd utils/
-make
 ```
