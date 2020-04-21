@@ -20,7 +20,18 @@ Pipeline can be configured for any phylogenetic tree creation.
 
 2. In the directory of this repository execute command for install
 dependencies 
-`pip install -r requirements.txt`
+```sh
+pip install -r requiments.txt
+```
+Нou will also need to install dependences for R:
+```sh
+Rscript --vanilla utils/build-dep-list.R R-requirements.txt 
+```
+After that compile libraries:
+```sh
+cd utils/
+make
+```
 
 ## Usage
 
@@ -31,4 +42,8 @@ with name `article/`. In file `request.txt` add NCBI's indexes of nucleotides
 and add to folder `article/` articles you are interested in
 
 3.  That's all. You can tun pipeline by execute command
-`snakemake --cores=1 --forceall`
+
+
+```sh
+snakemake --cores=1 --forceall
+```
