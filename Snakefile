@@ -1,5 +1,9 @@
-configfile: "config.yaml"
+configfile: "config.yml"
 import os
+
+for key in config:
+    if key in os.environ:
+        config[key] = os.environ.get(key)
 
 CHANNELS = list(filter(lambda x: x in config['channels'], os.listdir('dataset')))
 
