@@ -79,7 +79,7 @@ rule global_alignment:
         "workflow/{channel}/request_sequence/all_sequence.aln",
         "workflow/{channel}/request_sequence/all_sequence.dnd"
     run:
-        shell('clustalw -infile="{input}"')
+        shell('clustalw2 -infile="{input}"')
         
 
 rule R_plot_tree:
