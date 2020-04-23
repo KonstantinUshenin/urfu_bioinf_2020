@@ -33,11 +33,15 @@ make
 ```
 If your version older than use this commands (Ubuntu only):
 ```sh
-sudo su
-echo "deb http://www.stats.bris.ac.uk/R/bin/linux/ubuntu precise/" >> /etc/apt/sources.list
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
-apt-get update
-apt-get upgrade 
+sudo apt install apt-transport-https software-properties-common
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
+sudo apt update
+sudo apt install r-base
+```
+To verify that the installation was successful run the following command which will print the R version:
+```sh
+R --version
 ```
 
 ## Usage
