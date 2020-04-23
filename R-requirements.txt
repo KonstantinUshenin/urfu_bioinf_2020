@@ -1,1 +1,1 @@
-animation ape aplot askpass cli clusterGeneration coda colorspace combinat commonmark cowplot crosstalk curl data.tree geiger ggimage ggplot2 ggplotify ggridges ggtree glue gridGraphics gtable gtools igraph isoband jsonlite labeling magick ncbit numDeriv openssl phangorn phytools tidytree vegan yaml
+animation ape aplot cowplot data.tree ggimage ggplot2 ggplotify ggridges ggtree gtable igraph magick phytools tidytree
