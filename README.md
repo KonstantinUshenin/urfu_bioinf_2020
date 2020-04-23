@@ -23,14 +23,21 @@ dependencies
 ```sh
 pip install requiments.txt
 ```
-Нou will also need to install dependences for R:
+Нou will also need to install dependences for R `version 3.6`:
 ```sh
 Rscript --vanilla utils/build-dep-list.R R-requirements.txt 
 ```
 After that compile libraries:
 ```sh
-cd utils/
 make
+```
+If your version older than use this commands (Ubuntu only):
+```sh
+sudo su
+echo "deb http://www.stats.bris.ac.uk/R/bin/linux/ubuntu precise/" >> /etc/apt/sources.list
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+apt-get update
+apt-get upgrade 
 ```
 
 ## Usage
