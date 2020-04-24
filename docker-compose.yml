@@ -1,4 +1,6 @@
-version: '2'
+version: '2.0'
 services:
   pipeline:
     build: .
+    env_file:
+      - config.env
