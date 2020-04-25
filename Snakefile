@@ -23,7 +23,7 @@ for channel in CHANNELS:
 rule all:
     input:
         expand("workflow/{channel}/plot_tree/tree.png", channel=CHANNELS),
-        expand("workflow/{channel}/plot_tree/plot_tree.jpg", channel=CHANNELS)
+        expand("workflow/{channel}/plot_tree/plot_tree.pdf", channel=CHANNELS)
   
 rule article_index:
     input:
@@ -90,7 +90,7 @@ rule R_plot_tree:
     input:
         "workflow/{channel}/tree_builder/align.nex"
     output:
-        "workflow/{channel}/plot_tree/plot_tree.jpg"
+        "workflow/{channel}/plot_tree/plot_tree.pdf"
     shell:
         "Rscript --vanilla notebook_template/r_scr.R {input} {output}"
 
