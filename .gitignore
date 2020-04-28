@@ -3,6 +3,6 @@ dag.svg
 workflow/*
 *.log
 */.*
-/notebook_template/.ipynb_checkpoints/
+.ipynb_checkpoints
 /.snakemake/
 build-dep-list.R

@@ -23,14 +23,25 @@ dependencies
 ```sh
 pip install -r requiments.txt
 ```
-Нou will also need to install dependences for R:
+Нou will also need to install dependences for R `version 3.6`:
 ```sh
 Rscript --vanilla utils/build-dep-list.R R-requirements.txt 
 ```
 After that compile libraries:
 ```sh
-cd utils/
 make
+```
+If your version older than use this commands (Ubuntu only):
+```sh
+sudo apt install apt-transport-https software-properties-common
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
+sudo apt update
+sudo apt install r-base
+```
+To verify that the installation was successful run the following command which will print the R version:
+```sh
+R --version
 ```
 
 ## Usage
