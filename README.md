@@ -1,47 +1,39 @@
-# urfu_bioinf_2020
-Pipeline for building of philogenetic trees
+   # urfu_bioinf_2020
+Pipeline for building of phylogenetic trees
 
 ## Description
 Using this pipeline you can create amazing phylogenetic trees of 
-cell's channel.It's quite simple, you just need to add NCBI's indexes of 
+cell's channel. It's quite simple, you just need to add NCBI's indexes of 
 genes or articles in the format html. At the output of the pipeline you 
 can receive pictures with your phylogenetic trees. 
 Pipeline can be configured for any phylogenetic tree creation.  
 
+The pipeline structure is here:
+<img src="">
 ## Denpendences
 * Snakemake
 * Matplotlib
 * Biopython
 * ClustalW
+*  R
+*  ggtree
 
 ## Installation
 
-1. Clone this repository to your workflow
+You may use **Docker** but if you **don't want to do it**, make sure that you use R  which is **3.6** version or later.
+Clone this repository to your workflow
+```sh
+git clone git@github.com:KonstantinUshenin/urfu_bioinf_2020.git
+```
 
-2. In the directory of this repository execute command for install
-dependencies 
+In the directory of this repository execute command for install
+dependencies for Python
 ```sh
-pip install requiments.txt
+pip install requirements.txt
 ```
-Нou will also need to install dependences for R `version 3.6`:
-```sh
-Rscript --vanilla utils/build-dep-list.R R-requirements.txt 
-```
-After that compile libraries:
+After that compile libraries for R:
 ```sh
 make
-```
-If your version older than use this commands (Ubuntu only):
-```sh
-sudo apt install apt-transport-https software-properties-common
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
-sudo apt update
-sudo apt install r-base
-```
-To verify that the installation was successful run the following command which will print the R version:
-```sh
-R --version
 ```
 
 ## Usage
@@ -52,9 +44,19 @@ R --version
 with name `article/`. In file `request.txt` add NCBI's indexes of nucleotides
 and add to folder `article/` articles you are interested in
 
-3.  That's all. You can tun pipeline by execute command
+3.  That's all. You can run pipeline by execute command
 
 
 ```sh
 snakemake --cores=1 --forceall
 ```
+
+## Project structure
+
+There are various folders in the project's directory:
+* **dataset** - contains folders with Ca and Na channels, which you may use as an example, here you can add your own channels
+* **notebook_template** - contains .py and .ipynb files which are neccessary for aligning sequences, building trees and visualization progress
+* **pkg-source-files** - contains packages for proper working with R
+* **utils** - contains commands for installing R dependencies and other utilites
+* **workflow** - a folder, which contains a result of a pipeline's work
+In the root directory you may see **Snakefile** and **Dockerfile** which you need to run in order to see the results of a pipeline.
