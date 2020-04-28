@@ -9,7 +9,7 @@ can receive pictures with your phylogenetic trees.
 Pipeline can be configured for any phylogenetic tree creation.  
 
 The pipeline structure is here:
-<img src="./pipeline_structure.jpg">
+<img src="./Component_1.svg">
 ## Denpendences
 * Snakemake
 * Matplotlib
