@@ -1,5 +1,9 @@
-configfile: "config.yaml"
+configfile: "config.yml"
 import os
+
+for key in config:
+    if key in os.environ:
+        config[key] = os.environ.get(key)
 
 CHANNELS = list(filter(lambda x: x in config['channels'], os.listdir('dataset')))
 
@@ -19,7 +23,7 @@ for channel in CHANNELS:
 rule all:
     input:
         expand("workflow/{channel}/plot_tree/tree.png", channel=CHANNELS),
-        expand("workflow/{channel}/plot_tree/plot_tree.jpg", channel=CHANNELS)
+        expand("workflow/{channel}/plot_tree/plot_tree.pdf", channel=CHANNELS)
   
 rule article_index:
     input:
@@ -77,15 +81,15 @@ rule global_alignment:
     output:
         "workflow/{channel}/request_sequence/all_sequence.aln",
         "workflow/{channel}/request_sequence/all_sequence.dnd"
-    shell:
-        'clustalw -infile="{input}"'
+    run:
+        shell('clustalw2 -infile="{input}"')
         
 
 rule R_plot_tree:
     input:
         "workflow/{channel}/tree_builder/align.nex"
     output:
-        "workflow/{channel}/plot_tree/plot_tree.jpg"
+        "workflow/{channel}/plot_tree/plot_tree.pdf"
     shell:
         "Rscript --vanilla notebook_template/r_scr.R {input} {output}"
 

@@ -1,7 +1,5 @@
-library(data.tree)
 library(ape)
 library(ggtree)
-library(ggimage)
 library(ggridges)
 
 args = commandArgs(trailingOnly=TRUE)
@@ -13,6 +11,6 @@ if (length(args)==0) {
 }
 
 anotherTree <- read.nexus(args[1])
-jpeg(args[2])
+pdf(args[2])
 plot(anotherTree)
 dev.off()
