@@ -5,3 +5,4 @@ workflow/*
 */.*
 /notebook_template/.ipynb_checkpoints/
 /.snakemake/
+build-dep-list.R

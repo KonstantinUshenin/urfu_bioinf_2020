@@ -53,7 +53,6 @@ rule fusion__join_all_index:
                 file_out = output
                 shell('python utils/cat.py "{file_in}" >> "{file_out}"')
                 shell('python utils/uniq.py "{file_out}" "{file_out}"')
-        # shell('sort {file_out} | uniq > {file_out} ')
   
 rule fusion:
     input:
